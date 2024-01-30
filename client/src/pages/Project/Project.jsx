@@ -1,17 +1,16 @@
-import React from 'react';
 import "./Project.css";
-// import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 
 
 function Projects() {
 
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/ProjectDetails'); 
+  };
 
-  // const history = useHistory();
-
-  // const navigateToProjectDetails = () => {
-  //   history.push('/ProjectDetails'); 
-  // };
 
   return (
 
@@ -53,7 +52,7 @@ function Projects() {
             <p>Jeu au tour par tour</p>
           </div>
 
-          <button className='btn' onClick={navigateToProjectDetails} >En savoir plus </button>
+          <button className='btn'  >En savoir plus </button>
 
         </div>
 
@@ -74,7 +73,7 @@ function Projects() {
             <p>Jeu au tour par tour</p>
           </div>
 
-          <button className='btn'  type='submit' >En savoir plus </button>
+          <button className='btn' onClick={handleClick} >En savoir plus </button>
 
         </div>
 

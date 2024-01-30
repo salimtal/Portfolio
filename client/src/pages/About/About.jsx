@@ -27,7 +27,6 @@ const About = () => {
       start: "top center",
       end: "+=900",
       marker: true,
-
       toggleActions: "restart pause reverse pause"
     },
     x: 200,
@@ -42,7 +41,6 @@ const About = () => {
       end: "+=900",
       marker: true,
       srub: true,
-      // pin: true,
       toggleActions: "restart pause reverse pause"
     },
     x: 400,
