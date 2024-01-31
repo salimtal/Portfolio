@@ -3,6 +3,7 @@ import './Contact.css';
 import emailjs from 'emailjs-com';
 import { MdEmail } from 'react-icons/md';
 import { FaPhoneSquareAlt } from "react-icons/fa";
+import { FaArrowAltCircleDown } from "react-icons/fa";
 
 
 
@@ -51,12 +52,21 @@ const Contact = () => {
 
               <div className='text'>
 
-              <h3>Appellez moi </h3>
-              <p>07.77.22.00.11</p>
+                <h3>Appellez moi </h3>
+                <p>07.77.22.00.11</p>
 
-            </div>
+              </div>
             </div>
 
+            <div className='form'>
+            <FaArrowAltCircleDown className='contactMeSvg' />
+
+              <div className='text'>
+
+                <h3> Formulaire de contact </h3>
+
+              </div>
+            </div>
 
 
           </div>
@@ -70,10 +80,10 @@ const Contact = () => {
 
             <input type='text' name='nom' placeholder='Votre Nom' required />
             <input type='text' name='prenom' placeholder='Votre Prénom' required />
-            <input type='text' name='sujet' placeholder='Sujet de contact' required />
+            <input id='subject' type='text' name='sujet' placeholder='Sujet de contact' required />
           </div>
 
-          <textarea name='message' rows={5} placeholder='Votre Message...'></textarea>
+          <textarea name='message' rows={10} placeholder='Votre Message...'></textarea>
           <div className='submit'>
             <button type='submit'> Envoyer </button>
           </div>

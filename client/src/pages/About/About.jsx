@@ -21,43 +21,43 @@ gsap.registerPlugin(ScrollTrigger);
 const About = () => {
 
 
-  gsap.to(".aboutMe", {
-    scrollTrigger: {
-      trigger: ".aboutMe",
-      start: "top center",
-      end: "+=900",
-      marker: true,
-      toggleActions: "restart pause reverse pause"
-    },
-    x: 200,
-    duration: 1
-  });
+  // gsap.to(".aboutMe", {
+  //   scrollTrigger: {
+  //     trigger: ".aboutMe",
+  //     start: "top center",
+  //     end: "+=900",
+  //     marker: true,
+  //     toggleActions: "restart pause reverse pause"
+  //   },
+  //   x: 200,
+  //   duration: 1
+  // });
 
 
-  gsap.to(".exprience", {
-    scrollTrigger: {
-      trigger: ".exprience",
-      start: "top center",
-      end: "+=900",
-      marker: true,
-      srub: true,
-      toggleActions: "restart pause reverse pause"
-    },
-    x: 400,
-    duration: 1
-  });
+  // gsap.to(".exprience", {
+  //   scrollTrigger: {
+  //     trigger: ".exprience",
+  //     start: "top center",
+  //     end: "+=900",
+  //     marker: true,
+  //     srub: true,
+  //     toggleActions: "restart pause reverse pause"
+  //   },
+  //   x: 400,
+  //   duration: 1
+  // });
 
-  gsap.to(".skills", {
-    scrollTrigger: {
-      trigger: ".skills",
-      start: "top center",
-      end: "+=900",
-      marker: true,
-      toggleActions: "restart pause reverse pause"
-    },
-    x: 400,
-    duration: 1
-  });
+  // gsap.to(".skills", {
+  //   scrollTrigger: {
+  //     trigger: ".skills",
+  //     start: "top center",
+  //     end: "+=900",
+  //     marker: true,
+  //     toggleActions: "restart pause reverse pause"
+  //   },
+  //   x: 400,
+  //   duration: 1
+  // });
 
 
   return (

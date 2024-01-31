@@ -19,7 +19,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="./EpicRivals.png" alt="Jeu" id="epicRivals" />
+          <img src="1.png" alt="Jeu" id="epicRivals" />
         </div>
 
 
@@ -28,7 +28,7 @@ function Projects() {
           <div className='cardTitle'>Epic Rivals</div>
 
           <div className='cardText'>
-            <p>Combat tour par tour entre deux équipes </p>
+            <p>Combat tour par tour entre deux équipes deux équipesdeux équipes </p>
           </div>
 
           <button className='btn' >En savoir plus </button>
@@ -40,7 +40,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="epicrivals.png" alt="Jeu" />
+          <img src="1.png" alt="Jeu" />
         </div>
 
 
@@ -61,7 +61,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="epicrivals.png" alt="Jeu" />
+          <img src="1.png" alt="Jeu" />
         </div>
 
 
