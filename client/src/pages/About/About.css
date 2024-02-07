@@ -170,3 +170,81 @@ padding: 10px;
 		
 	}
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+
+
+	.aboutMePage {
+		width: 70%;
+		margin: auto;
+		margin-top: 100px;
+	
+	}
+	.aboutMe h1 {
+		color: #D63484;
+		font-size: 30px;
+	}
+	.aboutMePage p {
+		width: 100%;
+		padding: 10px;
+		border-right: solid 3px transparent;
+		text-align: justify;
+		font-size: 16px;
+	}
+
+	.aboutMe {
+		width: 100%;
+		height: 650px;
+		color: white;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	
+	}
+
+	.aboutMe ul {
+		width: 100%;
+		color: #D63484;
+		font-size: 16px;
+padding: 10px;	
+	}
+
+	.aboutMePage h2 {
+		font-size: 23px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+	
+	}
+
+	.exprience {
+		color: white;
+		height: 570px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 50px;
+
+	}
+	.skills {
+		color: white;
+		width: 100%;
+		height: 600px;
+		display: flex;
+		align-items: center;
+	}
+	.HardSkillsIcons {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.HardSkillsIcons svg {
+		width: 95px;
+		height: 95px;
+		display: flex;
+	    justify-content: center;
+		padding: 20px;
+		
+	}
+}

@@ -81,16 +81,64 @@ body {
 .projectContainer .carrousel div.slide img {
 	width: 0;
 	height: 0;
-	transition: all 100ms ease-in;
+	transition: all 60ms ease-in;
 }
 
 .projectContainer .carrousel div.slide.current img {
 	/* opacity: 1; */
 	width: 100%;
 	height: 100%;
-	transition: all 100ms ease-in;
+	transition: all 60ms ease-in;
 }
 
 .projectContainer .projectDetails {
-	width: 35%;
+	width: 30%;
+	height: 80%;
+	background-color: aliceblue;
+	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	gap: 20px;
+	padding: 15px;
+	margin-top: 100px;
+	border-radius: 10px;
+
 }
+
+.projectDetails h1{
+	color: #F9C408; 
+}
+.projectDetails h2{
+	color: #9F37B9; 
+}
+
+.projectDetailsContent{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+.projectDetailsContent p{
+	font-size: larger;
+}
+.progLanguages{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px
+}
+
+.toolsSvg{
+	display: flex;
+	justify-content: space-evenly;
+
+
+}
+.progLanguages svg{
+	width: 70px;
+		height: 70px;
+		display: flex;
+
+}
+

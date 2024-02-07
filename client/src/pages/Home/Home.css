@@ -11,7 +11,7 @@ body {
 	flex-direction: column;
 	color: aliceblue;
 	position: absolute;
-	top: 50%;
+    top: 43%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: auto;
@@ -72,4 +72,37 @@ body {
 		color: rgba(255, 255, 255, .70);
 	}
 	
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.welcome {
+		width: 60%;
+		display: flex;
+		flex-direction: column;
+		color: aliceblue;
+		position: absolute;
+		top: 47%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin: auto;
+	}
+
+	.welcome h1 {
+		font-size: 25px;
+		margin-bottom: 50px;
+		color: blueviolet;
+		padding: 10px;
+	}
+
+	.welcome p {
+		width: 100%;
+		padding: 10px;
+		border-right: solid 3px transparent;
+		text-align:justify;
+		font-size: 16px;
+		color: rgba(255, 255, 255, .70);
+	}
+	
+
+
 }
