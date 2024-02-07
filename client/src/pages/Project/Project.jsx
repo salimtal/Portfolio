@@ -7,8 +7,14 @@ import { useNavigate } from 'react-router-dom';
 function Projects() {
 
   const navigate = useNavigate();
-  const handleClick = () => {
+  const handleClick1 = () => {
+    navigate('/ProjectDetails2'); 
+  };
+  const handleClick2 = () => {
     navigate('/ProjectDetails'); 
+  };
+  const handleClick3 = () => {
+    navigate('/ProjectDetails3'); 
   };
 
 
@@ -31,7 +37,7 @@ function Projects() {
             <p>Combat tour par tour entre deux équipes deux équipesdeux équipes </p>
           </div>
 
-          <button className='btn' >En savoir plus </button>
+          <button className='btn'onClick={handleClick1} >En savoir plus </button>
 
         </div>
 
@@ -52,7 +58,7 @@ function Projects() {
             <p>Jeu au tour par tour</p>
           </div>
 
-          <button className='btn'  >En savoir plus </button>
+          <button className='btn' onClick={handleClick2} >En savoir plus </button>
 
         </div>
 
@@ -73,7 +79,7 @@ function Projects() {
             <p>Jeu au tour par tour</p>
           </div>
 
-          <button className='btn' onClick={handleClick} >En savoir plus </button>
+          <button className='btn' onClick={handleClick3} >En savoir plus </button>
 
         </div>
 

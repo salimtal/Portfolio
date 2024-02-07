@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+
+}
+
+.projectContainer {
+	height: 750px;
+	width: 80%;
+	/* background-color: #81689D; */
+	border: solid 3px;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 250px;
+	margin-left: 20px;
+
+}
+
+
+.projectContainer .carrousel {
+	/* box-shadow: 15px 9px 30px 6px; */
+	width: 60%;
+	height: 60%;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: 50px;
+	/* Add a left margin of 20px */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+.carrousel button {
+	border: none;
+	border-radius: 5px;
+	background-color: #81689D;
+	color: white;
+	cursor: pointer;
+	font-size: 2rem;
+	height: 450px;
+	width: 50px;
+	transition: all 350ms ease-in;
+
+}
+
+.carrousel button:hover {
+	/* background-color: rgba(0, 0, 0, 0.7); */
+	transform: scale(1.1);
+}
+
+.projectContainer .circles {
+	bottom: 15%;
+	display: flex;
+	width: 20%;
+	margin-right: 30%;
+	justify-content: space-evenly;
+}
+
+.projectContainer .circle {
+	background-color: #81689D;
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+	transition: all 200ms ease-in;
+	display: flex;
+	justify-content: center;
+}
+
+.projectContainer .circle.active {
+	background-color: blueviolet;
+	transform: scale(2);
+}
+
+.projectContainer .carrousel div.slide img {
+	width: 0;
+	height: 0;
+	transition: all 60ms ease-in;
+}
+
+.projectContainer .carrousel div.slide.current img {
+	/* opacity: 1; */
+	width: 50%;
+	height: 100%;
+	transition: all 60ms ease-in;
+}
+
+.projectContainer .projectDetails {
+	width: 30%;
+	height: 80%;
+	background-color: aliceblue;
+	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	gap: 20px;
+	padding: 15px;
+	margin-top: 100px;
+	border-radius: 10px;
+
+}
+
+.projectDetails h1 {
+	color: #F9C408;
+}
+
+.projectDetails h2 {
+	color: #9F37B9;
+}
+
+.projectDetailsContent {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+
+.projectDetailsContent p {
+	font-size: larger;
+}
+
+.progLanguages {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px
+}
+
+.toolsSvg {
+	display: flex;
+	justify-content: space-evenly;
+
+
+}
+
+.progLanguages svg {
+	width: 70px;
+	height: 70px;
+	display: flex;
+
+}
