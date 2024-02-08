@@ -107,14 +107,15 @@ body {
 }
 
 .projectContainer2 .projectDetails h1{
-	color: #F9C408;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	color: #9F37B9;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 .projectContainer2 .projectDetails h2{
-	color: #9F37B9;
-	margin-top: 20px;
-	margin-bottom: 10px;}
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
 
 .projectContainer2 .projectDetailsContent{
 	display: flex;
@@ -129,13 +130,12 @@ body {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 30px
+	gap: 90px
 }
 
 .projectContainer2 .toolsSvg{
 	display: flex;
 	justify-content: space-evenly;
-	margin-top: 35px;
 
 
 }

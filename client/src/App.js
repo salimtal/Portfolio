@@ -274,7 +274,7 @@ const App = () => {
             default: "bounce",
           },
           random: false,
-          speed: 4.,
+          speed: 4,
           straight: false,
         },
         number: {

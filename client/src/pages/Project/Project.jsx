@@ -52,7 +52,7 @@ function Projects() {
 
         <div className='cardBody'>
 
-          <div className='cardTitle'>Card Title</div>
+          <div className='cardTitle'>Epic Rivals</div>
 
           <div className='cardText'>
             <p>Jeu au tour par tour.</p>
