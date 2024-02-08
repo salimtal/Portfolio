@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import "./ProjectDetails.css";
+import "./ProjectDetails1.css";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 
@@ -10,6 +10,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { BsBootstrapFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+
 
 
 
@@ -81,28 +83,29 @@ function ProjectDetails() {
 
 	return (
 
-		<div className='projectContainer'>
+		<div className='projectContainer1'>
 
 			<section className="carrousel">
 				<button ref={prevRef} className="prev"><FaArrowLeft /></button>
 
-				<div className="current slide"><img src="./1.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./2.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./avatar.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./3.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./4.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./5.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./6.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./7.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./8.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./9.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./10.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./11.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./12.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./13.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./14.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./15.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./16.png" alt="Jeu" /></div>
+				<div className="current slide"><img src="./GMA1.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA2.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA3.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA4.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA5.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA6.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA7.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA8.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA9.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA10.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA11.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA12.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA13.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA14.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA15.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA16.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA17.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./GMA18.png" alt="Jeu" /></div>
 				<button ref={nextRef} className="next"><FaArrowRight /></button>
 
 				<div className="controls">
@@ -115,23 +118,25 @@ function ProjectDetails() {
 
 			<div className='projectDetails'>
 				<div className='projectDetailsContent'>
-					<h1>Epic Rivals</h1>
+					<h1>Page Données Personnelles</h1>
 					<h2>Déscriptif</h2>
-					<p>Epic Rivals est un mini-jeu de combat au tour par tour opposant deux équipes (gauche et droite). </p>
-					<p>Le joueur principal a la possibilité de créer deux équipes, chacune représentée par un avatar. Ensuite, il devra choisir une faction et lui attribuer ses unités pour démarrer la partie, le tout se déroulant dans une arène aléatoire.</p>
+					<p>Pour ce projet, ma mission était de développer à la fois le front-end et le back-end de la page "Données Personnelles", un élément crucial pour toute plateforme de commerce électronique.  Cette page contient des informations sensibles et spécifiques relatives à l'utilisateur, telles que les Informations d'Identification (nom, prénom, numéro de téléphone, date de naissance), les Informations Personnelles (adresse postale), et la Sécurité et la Gestion de Compte (e-mail et mot de passe).</p>
+					<p>En fournissant des options de gestion complètes, elle permet aisément à l'utilisateur d'ajouter, consulter, modifier ou supprimer ses informations selon ses besoins.</p>
 					<h2>Contexte</h2>
-					<p> Conçu en collaboration avec un binôme lors d'une activité en formation. </p>
+					<p>Dans le cadre de mon stage chez GMA International, réalisé à la fin de ma formation DWWM.</p>
 				</div>
 
 				<div className='progLanguages'>
 					<h2>Langages et outils</h2>
 					<div className='toolsSvg'>
+					    <FaReact />
 						<IoLogoJavascript className='svg' />
+						<FaNode className='svg' />
 						<IoLogoHtml5 className='svg' />
+						<SiMysql className='svg' />
+
 						<IoLogoCss3 className='svg' />
 						<BsBootstrapFill className='svg' />
-						<FaNode className='svg' />
-						<SiMysql className='svg' />
 					</div>
 				</div>
 
@@ -139,6 +144,7 @@ function ProjectDetails() {
 
 			<div className="circles">
 				<div className="circle active"></div>
+				<div className="circle"></div>
 				<div className="circle"></div>
 				<div className="circle"></div>
 				<div className="circle"></div>

@@ -195,7 +195,7 @@ import Navbar from './components/NavBar/NavBar';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Project from './pages/Project/Project';
-import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
+import ProjectDetails1 from './pages/ProjectDetails/ProjectDetails1';
 import ProjectDetails2 from './pages/ProjectDetails/ProjectDetails2';
 import ProjectDetails3 from './pages/ProjectDetails/ProjectDetails3';
 import Contact from './pages/Contact/Contact';
@@ -315,7 +315,7 @@ const App = () => {
         <Route path='/About' element={<About />} />
         <Route path='/Project' element={<Project />} />
         <Route path='/Contact' element={<Contact />} />
-        <Route path='/ProjectDetails' element={<ProjectDetails />} />
+        <Route path='/ProjectDetails1' element={<ProjectDetails1 />} />
         <Route path='/ProjectDetails2' element={<ProjectDetails2 />} />
         <Route path='/ProjectDetails3' element={<ProjectDetails3 />} />
 

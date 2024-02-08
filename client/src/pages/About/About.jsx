@@ -9,6 +9,8 @@ import { IoLogoFigma } from "react-icons/io5";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsBootstrapFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+
 
 
 
@@ -96,6 +98,7 @@ const About = () => {
         <h2>Outils et compétences </h2>
         <div className='HardSkillsIcons'>
         <IoLogoJavascript className='svg' />
+        <FaReact />
         <IoLogoHtml5 className='svg' />
         <IoLogoCss3 className='svg' />
         <FaNode className='svg' />

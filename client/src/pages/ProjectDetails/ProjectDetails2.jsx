@@ -81,38 +81,33 @@ function ProjectDetails() {
 
 	return (
 
-		<div className='projectContainer'>
+		<div className='projectContainer2'>
 
 			<section className="carrousel">
 				<button ref={prevRef} className="prev"><FaArrowLeft /></button>
 
-				<div className="current slide"><img src="./GMA1.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA2.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA3.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA4.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA5.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA6.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA7.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA8.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA9.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA10.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA11.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA12.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA13.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA14.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA15.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA16.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA17.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./GMA18.png" alt="Jeu" /></div>
+				<div className="current slide"><img src="./1.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./2.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./avatar.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./3.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./4.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./5.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./6.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./7.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./8.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./9.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./10.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./11.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./12.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./13.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./14.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./15.png" alt="Jeu" /></div>
+				<div className="slide"><img src="./16.png" alt="Jeu" /></div>
 				<button ref={nextRef} className="next"><FaArrowRight /></button>
 
 				<div className="controls">
 				</div>
 			</section>
-
-
-
-
 
 			<div className='projectDetails'>
 				<div className='projectDetailsContent'>
@@ -140,7 +135,6 @@ function ProjectDetails() {
 
 			<div className="circles">
 				<div className="circle active"></div>
-				<div className="circle"></div>
 				<div className="circle"></div>
 				<div className="circle"></div>
 				<div className="circle"></div>

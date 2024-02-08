@@ -8,10 +8,10 @@ function Projects() {
 
   const navigate = useNavigate();
   const handleClick1 = () => {
-    navigate('/ProjectDetails2'); 
+    navigate('/ProjectDetails1'); 
   };
   const handleClick2 = () => {
-    navigate('/ProjectDetails'); 
+    navigate('/ProjectDetails2'); 
   };
   const handleClick3 = () => {
     navigate('/ProjectDetails3'); 
