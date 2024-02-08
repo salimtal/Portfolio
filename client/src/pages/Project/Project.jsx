@@ -8,13 +8,13 @@ function Projects() {
 
   const navigate = useNavigate();
   const handleClick1 = () => {
-    navigate('/ProjectDetails1'); 
+    navigate('/ProjectDetails1');
   };
   const handleClick2 = () => {
-    navigate('/ProjectDetails2'); 
+    navigate('/ProjectDetails2');
   };
   const handleClick3 = () => {
-    navigate('/ProjectDetails3'); 
+    navigate('/ProjectDetails3');
   };
 
 
@@ -25,19 +25,19 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="1.png" alt="Jeu" id="epicRivals" />
+          <img src="GMALogo.png" alt="Jeu" id="GMA" />
         </div>
 
 
         <div className='cardBody'>
 
-          <div className='cardTitle'>Epic Rivals</div>
+          <div className='cardTitle'>GMA International</div>
 
           <div className='cardText'>
-            <p>Combat tour par tour entre deux équipes deux équipesdeux équipes </p>
+            <p> Création de la page "Données Personnelles" de l'utilisateur, incluant une gestion complète.  </p>
           </div>
 
-          <button className='btn'onClick={handleClick1} >En savoir plus </button>
+          <button className='btn' onClick={handleClick1} >En savoir plus </button>
 
         </div>
 
@@ -55,7 +55,7 @@ function Projects() {
           <div className='cardTitle'>Card Title</div>
 
           <div className='cardText'>
-            <p>Jeu au tour par tour</p>
+            <p>Jeu au tour par tour.</p>
           </div>
 
           <button className='btn' onClick={handleClick2} >En savoir plus </button>
@@ -87,7 +87,7 @@ function Projects() {
 
       </div>
 
-      </div>
+    </div>
 
   );
 }
