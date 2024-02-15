@@ -8,7 +8,7 @@ import { FaNode } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
-import { IoLogoHtml5 } from "react-icons/io5";
+import { TbFileTypeJsx } from "react-icons/tb";
 import { BsBootstrapFill } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
 
@@ -129,12 +129,11 @@ function ProjectDetails() {
 				<div className='progLanguages'>
 					<h2>Langages et outils</h2>
 					<div className='toolsSvg'>
-					    <FaReact />
+					    <FaReact className='svg'/>
 						<IoLogoJavascript className='svg' />
 						<FaNode className='svg' />
-						<IoLogoHtml5 className='svg' />
 						<SiMysql className='svg' />
-
+						<TbFileTypeJsx className='svg'/>
 						<IoLogoCss3 className='svg' />
 						<BsBootstrapFill className='svg' />
 					</div>

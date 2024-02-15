@@ -67,16 +67,16 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="1.png" alt="Jeu" />
+          <img src="mysteryNumber.png" alt="Jeu" />
         </div>
 
 
         <div className='cardBody'>
 
-          <div className='cardTitle'>Card Title</div>
+          <div className='cardTitle'>Mystery Number</div>
 
           <div className='cardText'>
-            <p>Jeu au tour par tour</p>
+            <p>Devinez le nombre ou chiffre mystère </p>
           </div>
 
           <button className='btn' onClick={handleClick3} >En savoir plus </button>
