@@ -158,7 +158,12 @@ border-radius: 30px;
 	
 	}
 	
-	
+	.contact .conteneur {
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+	}
 	.contact h1 {
 		color: white;
 		font-size: 30px;
@@ -193,6 +198,8 @@ margin-bottom: 15px;
 		margin-bottom: 50px;
 		display: flex;
 		flex-wrap: wrap;
+		position: absolute;
+		top: 900px;
 		opacity: 0.6;
 		align-content: flex-start;
 		align-items: center;

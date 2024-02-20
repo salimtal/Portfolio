@@ -34,7 +34,7 @@ function Projects() {
           <div className='cardTitle'>GMA International</div>
 
           <div className='cardText'>
-            <p> Création de la page "Données Personnelles" de l'utilisateur, incluant une gestion complète.  </p>
+            <p> Création de la page "Données Personnelles" de l'utilisateur, incluant une gestion complète des données.  </p>
           </div>
 
           <button className='btn' onClick={handleClick1} >En savoir plus </button>

@@ -53,7 +53,7 @@ const Contact = () => {
               <div className='text'>
 
                 <h3>Appellez moi </h3>
-                <p>07.77.22.00.11</p>
+                <p>07.77.93.05.39</p>
 
               </div>
             </div>
