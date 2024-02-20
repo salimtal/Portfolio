@@ -6,17 +6,12 @@ body {
 }
 
 .projectContainer1 {
-	/* height: 800px; */
 	width: 95%;
-	/* background-color: #81689D; */
-	/* border: solid 3px; */
-	/* border-radius: 10px; */
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	/* align-items: center; */
-	margin-top: 80px;
 	row-gap: 25px;
+	margin-top: 220px;
 
 }
 
@@ -188,150 +183,8 @@ body {
 	display: flex;
 
 }
-@media screen and (min-width:1441px){
 
-	.projectContainer1 {
-		width: 95%;
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-
-	}
-	
-	
-	.projectContainer1 .carrousel .toto{
-		display: flex;
-		justify-content: center;
-	align-items: center;
-	}
-
-	.projectContainer1 .carrousel div.slide.current img {
-		/* opacity: 1; */
-		width: 400px;
-		height: 600px;
-		/* object-fit: cover; */
-		transition: all 60ms ease-in;
-	}
-
-
-	.projectContainer1 .projectDetails {
-		width: 35%;
-		background-color: aliceblue;
-		font-family: 'Source Code Pro', monospace;
-		display: flex;
-		justify-content: center;
-		text-align: justify;
-		gap: 20px;
-		padding: 20px;
-		border-radius: 10px;
-	
-	}
-
-	.projectContainer1 .carrousel .titi button{
-		border: none;
-		border-radius: 5px;
-		background-color: #81689D;
-		color: white;
-		cursor: pointer;
-		font-size: 2rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 40px;
-		/* transition: all 350ms ease-in; */
-		height: 40px;
-		border-radius: 50%;
-	}
-	
-
-	.projectContainer1 .carrousel .tata button{
-		border: none;
-		border-radius: 5px;
-		background-color: #81689D;
-		color: white;
-		cursor: pointer;
-		font-size: 2rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-	}
-	
-	.projectContainer1 .carrousel .titi{
-		display: flex;
-		flex-direction: column;
-		align-self: center;
-		padding-left: 10px;
-	}
-	
-	.projectContainer1 .carrousel .titi button{
-		border: none;
-		border-radius: 5px;
-		background-color: #81689D;
-		color: white;
-		cursor: pointer;
-		font-size: 2rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 40px;
-		/* transition: all 350ms ease-in; */
-		height: 40px;
-		border-radius: 50%;
-	}
-
-
-	.projectContainer1 .projectDetails h1 {
-		color: #9F37B9;
-		font-size: 25px;
-		margin-top: 10px;
-		margin-bottom: 5px;
-	}
-	
-	.projectContainer1 .projectDetails h2 {
-		color: black;
-		font-size: 20px;
-		margin-top: 10px;
-		margin-bottom: 5px;
-	}
-	
-	.projectContainer1 .projectDetailsContent {
-		display: flex;
-		flex-direction: column;
-		gap: 20px;
-	
-	}
-	
-	.projectContainer1 .projectDetailsContent p {
-		font-size: 16px;
-	}
-	
-	.projectContainer1 .progLanguages {
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		gap: 50px
-	}
-	
-	.projectContainer1 .toolsSvg {
-		display: flex;
-		justify-content: space-evenly;
-	
-	
-	}
-	
-	.projectContainer1 .progLanguages svg {
-		width: 70px;
-		height: 70px;
-		display: flex;
-	
-	}
-}
-
-
-@media screen and (min-width:1176px) and (max-width:1440px ) {
+@media screen and (max-width:1527px)  {
 
 
 	.projectContainer1 {
@@ -341,7 +194,7 @@ body {
 		justify-content: space-evenly;
 		align-items: center;
 
-		margin-top: 80px;
+		margin-top: 100px;
 		row-gap: 25px;
 	
 	}
@@ -355,7 +208,7 @@ body {
 
 	.projectContainer1 .carrousel div.slide.current img {
 		/* opacity: 1; */
-		width: 350px;
+		width: 450px;
 		height: 600px;
 		/* object-fit: cover; */
 		transition: all 60ms ease-in;
@@ -363,7 +216,7 @@ body {
 
 
 	.projectContainer1 .projectDetails {
-		width: 35%;
+        width: 450px;
 		background-color: aliceblue;
 		font-family: 'Source Code Pro', monospace;
 		display: flex;
@@ -416,14 +269,14 @@ body {
 
 	.projectContainer1 .projectDetails h1 {
 		color: #9F37B9;
-		font-size: 25px;
+		font-size: 20px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
 	
 	.projectContainer1 .projectDetails h2 {
 		color: black;
-		font-size: 20px;
+		font-size: 18px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
@@ -436,21 +289,20 @@ body {
 	}
 	
 	.projectContainer1 .projectDetailsContent p {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	
 }
-
-@media screen and (max-width:425px) {
+@media screen and (min-width: 610px) and (max-width:1200px) {
     .projectContainer1 {
-        width: 95%;
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column; 
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
-    .projectContainer1 .carrousel {
+	.projectContainer1 .carrousel {
         position: relative; 
     }
 
@@ -487,17 +339,13 @@ body {
     }
 
     .projectContainer1 .carrousel div.slide.current img {
-        width: 300px;
+        width: 450px;
         height: 500px;
         transition: all 60ms ease-in;
     }
 
 	.projectContainer1 .circles {
-		/* bottom: 15%;
-		display: flex;
-		width: 20%;
-		margin-right: 33.5%;
-		justify-content: space-evenly; */
+	
 		width: 95%;
 		display: flex;
 		justify-content: center;
@@ -519,8 +367,9 @@ body {
 		background-color: blueviolet;
 		transform: scale(2);
 	}
+	
     .projectContainer1 .projectDetails {
-        width: 300px;
+        width: 450px;
         background-color: aliceblue;
         font-family: 'Source Code Pro', monospace;
         display: flex;
@@ -529,62 +378,158 @@ body {
         gap: 20px;
         padding: 20px;
         border-radius: 10px;
-		margin-bottom: 70px;
+		margin-bottom: 80px;
     }
 
-	.projectContainer1 .projectDetails h1 {
+	
+	.projectContainer1 .projectDetailsContent p {
+		font-size: 14px;
+	}
+	.projectContainer1 .projectDetails h1{
+	color: #9F37B9;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer1 .projectDetails h2 {
+	color: black;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer1 .progLanguages svg {
+	width: 40px;
+	height: 40px;
+	
+
+
+}
+}
+
+
+@media screen and (min-width:376px) and (max-width:609px) {
+    .projectContainer1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        margin-top: 30px;
+    }
+
+	.projectContainer1 .carrousel {
+        position: relative; 
+    }
+
+	.projectContainer1 .carrousel .next  svg,
+	.projectContainer1 .carrousel .prev  svg {
+		width: 15px;
+		height: 15px;
 		color: #9F37B9;
-		font-size: 18px;
-		margin-top: 10px;
-		margin-bottom: 5px;
 	}
-	
-	.projectContainer1 .projectDetails h2 {
-		color: black;
-		font-size: 16px;
-		margin-top: 10px;
-		margin-bottom: 5px;
+
+    .projectContainer1 .carrousel .tata button ,
+    .projectContainer1 .carrousel .titi button {
+        position: absolute;
+        top: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px; 
+        height: 20px; 
+        cursor: pointer;
+        z-index: 1;
 	}
+
+
+    .projectContainer1 .carrousel .tata button {
+        left: 12px;
+		background-color: transparent;
+    }
+
+    .projectContainer1 .carrousel .titi button {
+        right: 12px; 
+		background-color: transparent;
+
+    }
+
+    .projectContainer1 .carrousel div.slide.current img {
+        width: 360px;
+        height: 500px;
+        transition: all 60ms ease-in;
+    }
+
+	.projectContainer1 .circles {
 	
-	.projectContainer1 .projectDetailsContent {
+		width: 95%;
 		display: flex;
-		flex-direction: column;
-		gap: 20px;
+		justify-content: center;
+		column-gap: 10px;
+		margin-top: 10px;
+	}
 	
+	.projectContainer1 .circle {
+		background-color: #81689D;
+		height: 5px;
+		width: 5px;
+		border-radius: 100%;
+		transition: all 200ms ease-in;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.projectContainer1 .circle.active {
+		background-color: blueviolet;
+		transform: scale(2);
+	}
+	
+    .projectContainer1 .projectDetails {
+        width: 360px;
+        background-color: aliceblue;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 10px;
+		margin-bottom: 80px;
+    }
+
+	
+	.projectContainer1 .projectDetailsContent p {
+		font-size: 13px;
 	}
 	
 	.projectContainer1 .projectDetailsContent p {
-		font-size: 12px;
+		font-size: 14px;
 	}
-	.projectContainer1 .progLanguages {
-		width: 100%;
-		display: flex;
-		flex-wrap: nowrap;
-		flex-direction: column;
-		gap: 20px;
-	}
+	.projectContainer1 .projectDetails h1{
+	color: #9F37B9;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer1 .projectDetails h2 {
+	color: black;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer1 .progLanguages svg {
+	width: 40px;
+	height: 40px;
 	
-	.projectContainer1 .toolsSvg {
-		display: flex;
-		justify-content: space-evenly;
-	
-	
-	}
-	.projectContainer1 .progLanguages .toolsSvg{
-		display: flex;
-		flex-wrap: wrap;
-		row-gap: 10px;
-		column-gap: 5px;
-	}
-	
-	.projectContainer1 .progLanguages svg {
-		width: 40px;
-		height: 40px;
-		
+
+
+}
+}
 
 	
-	}
-}
+
 
 
 
@@ -596,6 +541,71 @@ body {
         flex-direction: column; 
         margin-top: 30px;
     }
+
+	.projectContainer1 .carrousel {
+        position: relative; 
+    }
+
+	.projectContainer1 .carrousel .next  svg,
+	.projectContainer1 .carrousel .prev  svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+    .projectContainer1 .carrousel .tata button ,
+    .projectContainer1 .carrousel .titi button {
+        position: absolute;
+        top: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px; 
+        height: 20px; 
+        cursor: pointer;
+        z-index: 1;
+	}
+
+
+    .projectContainer1 .carrousel .tata button {
+        left: 12px;
+		background-color: transparent;
+    }
+
+    .projectContainer1 .carrousel .titi button {
+        right: 12px; 
+		background-color: transparent;
+
+    }
+
+    .projectContainer1 .carrousel div.slide.current img {
+        width: 200px;
+        height: 500px;
+        transition: all 60ms ease-in;
+    }
+
+	.projectContainer1 .circles {
+		width: 95%;
+		display: flex;
+		justify-content: center;
+		column-gap: 10px;
+		margin-top: 10px;
+	}
+	
+	.projectContainer1 .circle {
+		background-color: #81689D;
+		height: 5px;
+		width: 5px;
+		border-radius: 100%;
+		transition: all 200ms ease-in;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.projectContainer1 .circle.active {
+		background-color: blueviolet;
+		transform: scale(2);
+	}
 
     .projectContainer1 .carrousel div.slide.current img {
         width: 340px;
@@ -619,9 +629,35 @@ body {
 
 	
 	.projectContainer1 .projectDetailsContent p {
-		font-size: 13px;
+		font-size: 14px;
 	}
+	.projectContainer1 .projectDetails h1{
+	color: #9F37B9;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer1 .projectDetails h2 {
+	color: black;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.projectContainer1 .progLanguages .toolsSvg{
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 5px;
+}
+
+.projectContainer1 .progLanguages svg {
+	width: 40px;
+	height: 40px;
 	
+
+
+}
 
 }
 
@@ -749,12 +785,7 @@ body {
 		gap: 20px;
 	}
 	
-	.projectContainer1 .toolsSvg {
-		display: flex;
-		justify-content: space-evenly;
-	
-	
-	}
+
 	.projectContainer1 .progLanguages .toolsSvg{
 		display: flex;
 		flex-wrap: wrap;
