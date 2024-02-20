@@ -441,8 +441,6 @@ body {
 	
 }
 
-
-
 @media screen and (max-width:425px) {
     .projectContainer1 {
         width: 95%;
@@ -531,18 +529,19 @@ body {
         gap: 20px;
         padding: 20px;
         border-radius: 10px;
+		margin-bottom: 70px;
     }
 
 	.projectContainer1 .projectDetails h1 {
 		color: #9F37B9;
-		font-size: 20px;
+		font-size: 18px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
 	
 	.projectContainer1 .projectDetails h2 {
 		color: black;
-		font-size: 20px;
+		font-size: 16px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
@@ -555,6 +554,219 @@ body {
 	}
 	
 	.projectContainer1 .projectDetailsContent p {
+		font-size: 12px;
+	}
+	.projectContainer1 .progLanguages {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.projectContainer1 .toolsSvg {
+		display: flex;
+		justify-content: space-evenly;
+	
+	
+	}
+	.projectContainer1 .progLanguages .toolsSvg{
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+	
+	.projectContainer1 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+		
+
+	
+	}
+}
+
+
+
+@media screen and (max-width:375px) {
+    .projectContainer1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        margin-top: 30px;
+    }
+
+    .projectContainer1 .carrousel div.slide.current img {
+        width: 340px;
+        height: 500px;
+        transition: all 60ms ease-in;
+    }
+
+
+    .projectContainer1 .projectDetails {
+        width: 340px;
+        background-color: aliceblue;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 10px;
+		margin-bottom: 80px;
+    }
+
+	
+	.projectContainer1 .projectDetailsContent p {
+		font-size: 13px;
+	}
+	
+
+}
+
+
+@media screen and (max-width:320px) {
+    .projectContainer1 {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        margin-top: 30px;
+    }
+
+    .projectContainer1 .carrousel {
+        position: relative; 
+    }
+
+	.projectContainer1 .carrousel .next  svg,
+	.projectContainer1 .carrousel .prev  svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+    .projectContainer1 .carrousel .tata button ,
+    .projectContainer1 .carrousel .titi button {
+        position: absolute;
+        top: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px; 
+        height: 20px; 
+        cursor: pointer;
+        z-index: 1;
+	}
+
+
+    .projectContainer1 .carrousel .tata button {
+        left: 12px;
+		background-color: transparent;
+    }
+
+    .projectContainer1 .carrousel .titi button {
+        right: 12px; 
+		background-color: transparent;
+
+    }
+
+    .projectContainer1 .carrousel div.slide.current img {
+        width: 300px;
+        height: 500px;
+        transition: all 60ms ease-in;
+    }
+
+	.projectContainer1 .circles {
+		/* bottom: 15%;
+		display: flex;
+		width: 20%;
+		margin-right: 33.5%;
+		justify-content: space-evenly; */
+		width: 95%;
+		display: flex;
+		justify-content: center;
+		column-gap: 10px;
+		margin-top: 10px;
+	}
+	
+	.projectContainer1 .circle {
+		background-color: #81689D;
+		height: 5px;
+		width: 5px;
+		border-radius: 100%;
+		transition: all 200ms ease-in;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.projectContainer1 .circle.active {
+		background-color: blueviolet;
+		transform: scale(2);
+	}
+    .projectContainer1 .projectDetails {
+        width: 300px;
+        background-color: aliceblue;
+        font-family: 'Source Code Pro', monospace;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 10px;
+		margin-bottom: 70px;
+    }
+
+	.projectContainer1 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	
+	.projectContainer1 .projectDetails h2 {
+		color: black;
 		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	
+	.projectContainer1 .projectDetailsContent {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	
+	}
+	
+	.projectContainer1 .projectDetailsContent p {
+		font-size: 12px;
+	}
+	.projectContainer1 .progLanguages {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.projectContainer1 .toolsSvg {
+		display: flex;
+		justify-content: space-evenly;
+	
+	
+	}
+	.projectContainer1 .progLanguages .toolsSvg{
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+	
+	.projectContainer1 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+		
+
+	
 	}
 }

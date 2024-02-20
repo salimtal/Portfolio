@@ -153,9 +153,9 @@ function ProjectDetails() {
 						<FaReact className='svg' />
 						<IoLogoJavascript className='svg' />
 						<FaNode className='svg' />
+						<IoLogoCss3 className='svg' />
 						<SiMysql className='svg' />
 						<TbFileTypeJsx className='svg' />
-						<IoLogoCss3 className='svg' />
 						<BsBootstrapFill className='svg' />
 					</div>
 				</div>
