@@ -133,10 +133,6 @@ function ProjectDetails() {
 				</div>
 			</section>
 
-
-
-
-
 			<div className='projectDetails'>
 				<div className='projectDetailsContent'>
 					<h1>Page Données Personnelles</h1>
@@ -161,12 +157,6 @@ function ProjectDetails() {
 				</div>
 
 			</div>
-
-
-
-
-
-
 
 		</div>
 	)

@@ -6,46 +6,76 @@ body {
 }
 
 .projectContainer2 {
-	height: 800px;
-	width: 80%;
-	/* background-color: #81689D; */
-	border: solid 3px;
-	border-radius: 10px;
+	width: 95%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	margin-top: 175px;
+	row-gap: 25px;
+	margin-top: 220px;
+
 }
 
-
-.projectContainer2 .carrousel {
-	/* box-shadow: 15px 9px 30px 6px; */
-	width: 40%;
-	height: 60%;
-	margin-top: 100px;
-	margin-right: auto;
-	margin-left: 250px;
+.projectContainer2 .carrousel .toto {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+
 }
 
+.projectContainer2 .carrousel .tata {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-right: 10px;
+}
 
+.projectContainer2 .carrousel .next svg {
+	width: 20px;
+	height: 20px;
+}
 
+.projectContainer2 .carrousel .prev svg {
+	width: 20px;
+	height: 20px;
+}
 
-.projectContainer2 .carrousel button {
+.projectContainer2 .carrousel .tata button {
 	border: none;
 	border-radius: 5px;
 	background-color: #81689D;
 	color: white;
 	cursor: pointer;
 	font-size: 2rem;
-	height: 450px;
-	width: 50px;
-	transition: all 350ms ease-in;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
 }
+
+.projectContainer2 .carrousel .titi {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-left: 10px;
+}
+
+.projectContainer2 .carrousel .titi button {
+	border: none;
+	border-radius: 5px;
+	background-color: #81689D;
+	color: white;
+	cursor: pointer;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	/* transition: all 350ms ease-in; */
+	height: 40px;
+	border-radius: 50%;
+}
+
 
 .projectContainer2 .carrousel button:hover {
 	/* background-color: rgba(0, 0, 0, 0.7); */
@@ -53,16 +83,18 @@ body {
 }
 
 .projectContainer2 .circles {
+
+	width: 95%;
 	display: flex;
-	width: 20%;
-	margin-right: 33%;
-	justify-content: space-evenly;
+	justify-content: center;
+	column-gap: 10px;
+	margin-top: 10px;
 }
 
 .projectContainer2 .circle {
 	background-color: #81689D;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 	border-radius: 100%;
 	transition: all 200ms ease-in;
 	display: flex;
@@ -81,9 +113,8 @@ body {
 }
 
 .projectContainer2 .carrousel div.slide.current img {
-	/* opacity: 1; */
-	width: 100%;
-	height: 100%;
+	width: 600px;
+	height: 750px;
 	transition: all 60ms ease-in;
 }
 
@@ -97,7 +128,6 @@ body {
 	text-align: justify;
 	gap: 20px;
 	padding: 20px;
-	margin-top: 70px;
 	border-radius: 10px;
 
 }
@@ -129,7 +159,7 @@ body {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 90px
+	gap: 50px
 }
 
 .projectContainer2 .toolsSvg {
@@ -146,64 +176,99 @@ body {
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width:1527px) {
+
 
 	.projectContainer2 {
-		height: 1000px;
-		width: 100%;
-		border: solid 3px;
-		border-radius: 10px;
+		width: 95%;
 		display: flex;
-		align-content: center;
-		align-items: flex-end;
-	}
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
 
-	.projectContainer2 .carrousel {
-		width: 99%;
-    height: 60%;
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+		margin-top: 100px;
+		row-gap: 25px;
+
 	}
 
 
-	.projectContainer2 .carrousel div.slide img {
-		width: 100px;
-		height: 100px;
-		transition: all 60ms ease-in;
+	.projectContainer2 .carrousel .toto {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.projectContainer2 .carrousel div.slide.current img {
 		/* opacity: 1; */
-		width: 100%;
-		height: 100%;
+		width: 450px;
+		height: 600px;
+		/* object-fit: cover; */
 		transition: all 60ms ease-in;
 	}
 
+
 	.projectContainer2 .projectDetails {
-		width: 100%;
-		height: 100%;
+		width: 450px;
 		background-color: aliceblue;
 		font-family: 'Source Code Pro', monospace;
 		display: flex;
-		flex-direction: column;
+		justify-content: center;
 		text-align: justify;
-		gap: 10px;
+		gap: 20px;
 		padding: 20px;
-		margin-top: 70px;
 		border-radius: 10px;
 
 	}
 
+	.projectContainer2 .carrousel .tata button {
+		border: none;
+		border-radius: 5px;
+		background-color: #81689D;
+		color: white;
+		cursor: pointer;
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		/* transition: all 350ms ease-in; */
+		height: 40px;
+		border-radius: 50%;
+	}
+
+	.projectContainer2 .carrousel .titi {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		padding-left: 10px;
+	}
+
+	.projectContainer2 .carrousel .titi button {
+		border: none;
+		border-radius: 5px;
+		background-color: #81689D;
+		color: white;
+		cursor: pointer;
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		/* transition: all 350ms ease-in; */
+		height: 40px;
+		border-radius: 50%;
+	}
+
 	.projectContainer2 .projectDetails h1 {
 		color: #9F37B9;
+		font-size: 20px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
 
 	.projectContainer2 .projectDetails h2 {
 		color: black;
+		font-size: 18px;
 		margin-top: 10px;
 		margin-bottom: 5px;
 	}
@@ -216,32 +281,423 @@ body {
 	}
 
 	.projectContainer2 .projectDetailsContent p {
-		font-size: larger;
+		font-size: 15px;
 	}
 
-	.projectContainer2 .progLanguages {
+}
+
+@media screen and (min-width: 610px) and (max-width:1200px) {
+	.projectContainer2 {
 		width: 100%;
 		display: flex;
+		align-items: center;
 		flex-direction: column;
-		gap: 90px
+		margin-top: 30px;
 	}
 
-	.projectContainer2 .toolsSvg {
+	.projectContainer2 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer2 .carrousel .next svg,
+	.projectContainer2 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer2 .carrousel .tata button,
+	.projectContainer2 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
 
 
+	.projectContainer2 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer2 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer2 .carrousel div.slide.current img {
+		width: 450px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer2 .projectDetails {
+		width: 450px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer2 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer2 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .projectDetails h2 {
+		color: black;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
 	}
 
 	.projectContainer2 .progLanguages svg {
-		width: 70px;
-		height: 70px;
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}
+
+
+@media screen and (min-width:376px) and (max-width:609px) {
+	.projectContainer2 {
+		width: 100%;
 		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer2 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer2 .carrousel .next svg,
+	.projectContainer2 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer2 .carrousel .tata button,
+	.projectContainer2 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer2 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer2 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer2 .carrousel div.slide.current img {
+		width: 360px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+	.projectContainer2 .projectDetails {
+		width: 360px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer2 .projectDetailsContent p {
+		font-size: 13px;
+	}
+
+	.projectContainer2 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer2 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}
+
+
+@media screen and (max-width:375px) {
+	.projectContainer2 {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer2 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer2 .carrousel .next svg,
+	.projectContainer2 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer2 .carrousel .tata button,
+	.projectContainer2 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer2 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer2 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer2 .carrousel div.slide.current img {
+		width: 200px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+
+	.projectContainer2 .carrousel div.slide.current img {
+		width: 340px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer2 .projectDetails {
+		width: 340px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer2 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer2 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .progLanguages .toolsSvg {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+
+	.projectContainer2 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
 
 	}
 
 }
 
 
-/* @media screen and (min-width: 426px) and (max-width: 768px){
-} */
+@media screen and (max-width:320px) {
+	.projectContainer2 {
+		width: 95%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer2 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer2 .carrousel .next svg,
+	.projectContainer2 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer2 .carrousel .tata button,
+	.projectContainer2 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer2 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer2 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer2 .carrousel div.slide.current img {
+		width: 300px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer2 .projectDetails {
+		width: 300px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 70px;
+	}
+
+	.projectContainer2 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer2 .projectDetailsContent {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+	}
+
+	.projectContainer2 .projectDetailsContent p {
+		font-size: 12px;
+	}
+
+	.projectContainer2 .progLanguages {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+
+	.projectContainer2 .progLanguages .toolsSvg {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+
+	.projectContainer2 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}
