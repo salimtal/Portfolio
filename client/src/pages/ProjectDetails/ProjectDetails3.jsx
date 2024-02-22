@@ -81,22 +81,33 @@ function ProjectDetails() {
 
 	return (
 
-		<div className='projectContainer1'>
+		<div className='projectContainer3'>
 
 			<section className="carrousel">
-				<button ref={prevRef} className="prev"><FaArrowLeft /></button>
+				<div className='toto'>
+					<div className='tata'><button ref={prevRef} className="prev"><FaArrowLeft /></button></div>
 
-				
-				<div className="current slide"><img src="./mysteryNumber.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./MN1.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./MN2.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./MN3.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./MN4.png" alt="Jeu" /></div>
-				<div className="slide"><img src="./MN5.png" alt="Jeu" /></div>
 
-				<button ref={nextRef} className="next"><FaArrowRight /></button>
+					<div className="current slide"><img src="./mysteryNumber.png" alt="Jeu" /></div>
+					<div className="slide"><img src="./MN1.png" alt="Jeu" /></div>
+					<div className="slide"><img src="./MN2.png" alt="Jeu" /></div>
+					<div className="slide"><img src="./MN3.png" alt="Jeu" /></div>
+					<div className="slide"><img src="./MN4.png" alt="Jeu" /></div>
+					<div className="slide"><img src="./MN5.png" alt="Jeu" /></div>
 
-				<div className="controls">
+					<div className='titi'>	<button ref={nextRef} className="next"><FaArrowRight /></button></div>
+
+				</div>
+
+				<div className="circles">
+					<div className="circle active"></div>
+					<div className="circle"></div>
+					<div className="circle"></div>
+					<div className="circle"></div>
+					<div className="circle"></div>
+					<div className="circle"></div>
+					<div className="circle"></div>
+
 				</div>
 			</section>
 
@@ -106,7 +117,7 @@ function ProjectDetails() {
 
 			<div className='projectDetails'>
 				<div className='projectDetailsContent'>
-				<h1>Mystery Number</h1>
+					<h1>Mystery Number</h1>
 					<h2>Déscriptif</h2>
 					<p>Mystery Number est un jeu simple qui consiste à deviner un nombre mystère en seulement trois tentatives.</p>
 					<p>Le joueur a la possibilité de choisir le niveau de jeu : le niveau 1 où il doit deviner un nombre entre 1 et 10, le niveau 2 où il doit deviner un nombre entre 1 et 50, ou le niveau 3 où il doit deviner un nombre entre 1 et 100 pour complexifier l'énigme.</p>
@@ -117,7 +128,7 @@ function ProjectDetails() {
 				<div className='progLanguages'>
 					<h2>Langages et outils</h2>
 					<div className='toolsSvg'>
-					<FaReact className='svg' />
+						<FaReact className='svg' />
 						<IoLogoJavascript className='svg' />
 						<TbFileTypeJsx className='svg' />
 						<IoLogoCss3 className='svg' />
@@ -126,16 +137,7 @@ function ProjectDetails() {
 
 			</div>
 
-			<div className="circles">
-				<div className="circle active"></div>
-				<div className="circle"></div>
-				<div className="circle"></div>
-				<div className="circle"></div>
-				<div className="circle"></div>
-				<div className="circle"></div>
-				<div className="circle"></div>
-				
-			</div>
+
 
 
 

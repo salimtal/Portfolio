@@ -1,0 +1,707 @@
+body {
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+
+}
+
+.projectContainer3 {
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	row-gap: 25px;
+	margin-top: 220px;
+
+}
+
+.projectContainer3 .carrousel .toto {
+	display: flex;
+
+}
+
+.projectContainer3 .carrousel .tata {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-right: 10px;
+}
+
+.projectContainer3 .carrousel .next svg {
+	width: 20px;
+	height: 20px;
+}
+
+.projectContainer3 .carrousel .prev svg {
+	width: 20px;
+	height: 20px;
+}
+
+.projectContainer3 .carrousel .tata button {
+	border: none;
+	border-radius: 5px;
+	background-color: #81689D;
+	color: white;
+	cursor: pointer;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	/* transition: all 350ms ease-in; */
+	height: 40px;
+	border-radius: 50%;
+}
+
+.projectContainer3 .carrousel .titi {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	padding-left: 10px;
+}
+
+.projectContainer3 .carrousel .titi button {
+	border: none;
+	border-radius: 5px;
+	background-color: #81689D;
+	color: white;
+	cursor: pointer;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	/* transition: all 350ms ease-in; */
+	height: 40px;
+	border-radius: 50%;
+}
+
+
+.projectContainer3.carrousel button:hover {
+	/* background-color: rgba(0, 0, 0, 0.7); */
+	transform: scale(1.1);
+}
+
+.projectContainer3 .circles {
+
+	width: 95%;
+	display: flex;
+	justify-content: center;
+	column-gap: 10px;
+	margin-top: 10px;
+}
+
+.projectContainer3 .circle {
+	background-color: #81689D;
+	height: 5px;
+	width: 5px;
+	border-radius: 100%;
+	transition: all 200ms ease-in;
+	display: flex;
+	justify-content: center;
+}
+
+.projectContainer3 .circle.active {
+	background-color: blueviolet;
+	transform: scale(2);
+}
+
+.projectContainer3 .carrousel div.slide img {
+	width: 0;
+	height: 0;
+	transition: all 60ms ease-in;
+}
+
+.projectContainer3 .carrousel div.slide.current img {
+	width: 700px;
+	height: 750px;
+	transition: all 60ms ease-in;
+}
+
+.projectContainer3 .projectDetails {
+	width: 40%;
+	height: 100%;
+	background-color: aliceblue;
+	font-family: 'Source Code Pro', monospace;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	gap: 20px;
+	padding: 20px;
+	border-radius: 10px;
+
+}
+
+.projectContainer3 .projectDetails h1 {
+	color: #9F37B9;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer3 .projectDetails h2 {
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.projectContainer3 .projectDetailsContent {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+
+.projectContainer3 .projectDetailsContent p {
+	font-size: larger;
+}
+
+.projectContainer3 .progLanguages {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px
+}
+
+.projectContainer3 .toolsSvg {
+	display: flex;
+	justify-content: space-evenly;
+
+
+}
+
+.projectContainer3 .progLanguages svg {
+	width: 70px;
+	height: 70px;
+	display: flex;
+
+}
+
+@media screen and (max-width:1527px) {
+
+
+	.projectContainer3 {
+		width: 95%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
+
+		margin-top: 100px;
+		row-gap: 25px;
+
+	}
+
+
+	.projectContainer3 .carrousel .toto {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		/* opacity: 1; */
+		width: 450px;
+		height: 600px;
+		/* object-fit: cover; */
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer3 .projectDetails {
+		width: 450px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		justify-content: center;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+
+	}
+
+	.projectContainer3 .carrousel .tata button {
+		border: none;
+		border-radius: 5px;
+		background-color: #81689D;
+		color: white;
+		cursor: pointer;
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		/* transition: all 350ms ease-in; */
+		height: 40px;
+		border-radius: 50%;
+	}
+
+	.projectContainer3 .carrousel .titi {
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+		padding-left: 10px;
+	}
+
+	.projectContainer3 .carrousel .titi button {
+		border: none;
+		border-radius: 5px;
+		background-color: #81689D;
+		color: white;
+		cursor: pointer;
+		font-size: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		/* transition: all 350ms ease-in; */
+		height: 40px;
+		border-radius: 50%;
+	}
+
+	.projectContainer3 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetails h2 {
+		color: black;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetailsContent {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+	}
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (min-width: 610px) and (max-width:1200px) {
+	.projectContainer3 {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer3 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer3 .carrousel .next svg,
+	.projectContainer3 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer3 .carrousel .tata button,
+	.projectContainer3 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer3 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer3 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		width: 450px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer3 .projectDetails {
+		width: 450px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer3 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 22px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetails h2 {
+		color: black;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}
+
+
+@media screen and (min-width:376px) and (max-width:609px) {
+	.projectContainer3 {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer3 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer3 .carrousel .next svg,
+	.projectContainer3 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer3 .carrousel .tata button,
+	.projectContainer3 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer3 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer3 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		width: 360px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer3 .projectDetails {
+		width: 360px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 13px;
+	}
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer3 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+	.projectContainer3 {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer3 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer3 .carrousel .next svg,
+	.projectContainer3 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer3 .carrousel .tata button,
+	.projectContainer3 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer3 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer3 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		width: 200px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		width: 340px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer3 .projectDetails {
+		width: 340px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 80px;
+	}
+
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 14px;
+	}
+
+	.projectContainer3 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .progLanguages .toolsSvg {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+
+	.projectContainer3 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+
+}
+
+
+@media screen and (max-width:320px) {
+	.projectContainer3 {
+		width: 95%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.projectContainer3 .carrousel {
+		position: relative;
+	}
+
+	.projectContainer3 .carrousel .next svg,
+	.projectContainer3 .carrousel .prev svg {
+		width: 15px;
+		height: 15px;
+		color: #9F37B9;
+	}
+
+	.projectContainer3 .carrousel .tata button,
+	.projectContainer3 .carrousel .titi button {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		z-index: 1;
+	}
+
+
+	.projectContainer3 .carrousel .tata button {
+		left: 12px;
+		background-color: transparent;
+	}
+
+	.projectContainer3 .carrousel .titi button {
+		right: 12px;
+		background-color: transparent;
+
+	}
+
+	.projectContainer3 .carrousel div.slide.current img {
+		width: 300px;
+		height: 500px;
+		transition: all 60ms ease-in;
+	}
+
+
+	.projectContainer3 .projectDetails {
+		width: 300px;
+		background-color: aliceblue;
+		font-family: 'Source Code Pro', monospace;
+		display: flex;
+		flex-direction: column;
+		text-align: justify;
+		gap: 20px;
+		padding: 20px;
+		border-radius: 10px;
+		margin-bottom: 70px;
+	}
+
+	.projectContainer3 .projectDetails h1 {
+		color: #9F37B9;
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetails h2 {
+		color: black;
+		font-size: 16px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+
+	.projectContainer3 .projectDetailsContent {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+
+	}
+
+	.projectContainer3 .projectDetailsContent p {
+		font-size: 12px;
+	}
+
+	.projectContainer3 .progLanguages {
+		width: 100%;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+
+	.projectContainer3 .progLanguages .toolsSvg {
+		display: flex;
+		flex-wrap: wrap;
+		row-gap: 10px;
+		column-gap: 5px;
+	}
+
+	.projectContainer3 .progLanguages svg {
+		width: 40px;
+		height: 40px;
+
+
+
+	}
+}

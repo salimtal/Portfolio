@@ -8,9 +8,11 @@ body {
 .aboutMePage {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	width: 80%;
 	margin: auto;
-	margin-top: 230px;
+	margin-top: 240px;
 
 }
 
@@ -18,10 +20,11 @@ body {
 
 .aboutMe {
 	width: 90%;
-	height: 1000px;
 	color: white;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 200px;
+
 
 }
 
@@ -36,12 +39,16 @@ body {
 
 .aboutMe h1 {
 	color: blueviolet;
+	margin-left: 10px;
+
 }
 
 .aboutMePage h2 {
 	font-size: 60px;
 	padding-top: 20px;
 	padding-bottom: 50px;
+	margin-left: 10px;
+
 
 }
 
@@ -60,16 +67,16 @@ body {
 
 .exprience {
 	color: white;
-	height: 1000px;
 	width: 90%;
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 200px;
+
 
 }
 
 .skills {
 	color: white;
-	height: 1000px;
 	width: 70%;
 	display: flex;
 	flex-direction: column;
@@ -95,7 +102,10 @@ body {
 	height: 230px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+
+@media screen and (min-width: 769px) and (max-width: 2000px){
+
+
 
 	.aboutMePage {
 		width: 90%;
@@ -117,11 +127,12 @@ body {
 
 	.aboutMe {
 		width: 100%;
-		height: 770px;
 		color: white;
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 20px;
+		margin-bottom: 100px;
+
 	
 	}
 
@@ -141,19 +152,21 @@ padding: 10px;
 
 	.exprience {
 		color: white;
-		height: 710px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 50px;
+		margin-bottom: 100px;
+
 
 	}
 	.skills {
 		color: white;
 		width: 100%;
-		height: 600px;
 		display: flex;
 		align-items: center;
+		margin-bottom: 100px;
+
 	}
 	.HardSkillsIcons {
 		width: 100%;
@@ -171,19 +184,17 @@ padding: 10px;
 	}
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px){
-
-
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
 	.aboutMePage {
-		width: 70%;
+		width: 95%;
 		margin: auto;
 		margin-top: 100px;
 	
 	}
 	.aboutMe h1 {
 		color: #D63484;
-		font-size: 30px;
+		font-size: 25px;
 	}
 	.aboutMePage p {
 		width: 100%;
@@ -195,11 +206,11 @@ padding: 10px;
 
 	.aboutMe {
 		width: 100%;
-		height: 650px;
 		color: white;
 		display: flex;
 		flex-direction: column;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
+
 	
 	}
 
@@ -219,7 +230,6 @@ padding: 10px;
 
 	.exprience {
 		color: white;
-		height: 570px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -229,9 +239,10 @@ padding: 10px;
 	.skills {
 		color: white;
 		width: 100%;
-		height: 600px;
 		display: flex;
 		align-items: center;
+		margin-bottom: 50px;
+
 	}
 	.HardSkillsIcons {
 		width: 100%;
