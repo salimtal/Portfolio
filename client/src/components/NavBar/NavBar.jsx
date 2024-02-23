@@ -10,9 +10,11 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   const [activeIcon, setActiveIcon] = useState(null);
 
+ 
   const openIcon = (iconName) => {
     setActiveIcon(iconName === activeIcon ? null : iconName);
   };
+
 
   return (
     
