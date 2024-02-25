@@ -369,7 +369,7 @@ align-content: center;
 		margin-top: 3px;
 		margin-right: 20px;
 		color: blueviolet;
-		
+
 	}
 
 	
@@ -426,7 +426,7 @@ align-content: center;
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 370px) and (max-width: 425px) {
 	.contact {
 		width: 90%;
 		display: flex;
