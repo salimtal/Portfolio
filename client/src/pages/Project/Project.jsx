@@ -25,7 +25,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="GMALogo.png" alt="Jeu" id="GMA" />
+          <img src="Images/GMALogo.png" alt="Jeu" id="GMA" />
         </div>
 
 

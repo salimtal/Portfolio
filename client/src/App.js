@@ -185,7 +185,7 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 
 
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 // import components
 import Navbar from './components/NavBar/NavBar';
@@ -310,8 +310,10 @@ const App = () => {
       <NavBar />
 
       <Routes>
+      <Route path="/" element={<Navigate to="/home" />} />
 
-        <Route path='/' element={<Home />} />
+
+        <Route path='/home' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Project' element={<Project />} />
         <Route path='/Contact' element={<Contact />} />
