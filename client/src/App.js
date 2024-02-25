@@ -1,180 +1,3 @@
-// import './App.css';
-// import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-// import Particles from "react-tsparticles";
-// import { loadFull } from "tsparticles";
-// // import components
-// import Navbar from './components/NavBar/NavBar';
-
-// // import pages
-
-// import Home from './pages/Home/Home';
-// import About from './pages/About/About';
-// import Project from './pages/Project/Project';
-// import Contact from './pages/Contact/Contact';
-// import NavBar from './components/NavBar/NavBar';
-
-
-
-// // import NotFound from './pages/NotFound/NotFound';
-// //  si pages ne s'affichent pas aller dans view puis commande palette puis reload window
-
-
-// export default function App() {
-//   const particlesInit = async (main) => {
-//     console.log(main);
-
-//     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-//     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-//     // starting from v2 you can add only the features you need reducing the bundle size
-//     await loadFull(main);
-//   };
-
-//   return (
-//     <div className="App">
-//       <h1>Hello Coders!</h1>
-
-//        <Router>
-
-//  <NavBar/>
-
-// <Routes>
-
-// <Route path='/' element={<Home/>}/>
-// <Route path='/About' element={<About/>}/>
-//  <Route path='/Project' element={<Project/>}/>
-//  <Route path='/Contact' element={<Contact/>}/>
-
-//  </Routes>
-
-// </Router>
-//        <Particles
-//       id="tsparticles"
-//       init={particlesInit}
-
-//       options={{
-//         "fullScreen": {
-//             "enable": true,
-//             "zIndex": 5
-//         },
-//         "particles": {
-//             "number": {
-//                 "value": 50,
-//                 "density": {
-//                     "enable": true,
-//                     "value_area": 800
-//                 }
-//             },
-//             "color": {
-//                 "value": "#fff"
-//             },
-//             "shape": {
-//               "type": "links",
-//               "options": {
-//                   "sides": 5
-//               }
-//           },
-//             "opacity": {
-//                 "value": 50,
-//                 "random": true,
-//                 "anim": {
-//                     "enable": true,
-//                     "speed": 5,
-//                     "opacity_min": 0.1,
-//                     "sync": true
-//                 }
-//             },
-//             "size": {
-//                 "value": 5,
-//                 "random": true,
-//                 "anim": {
-//                     "enable": true,
-//                     "speed": 40,
-//                     "size_min": 0.1,
-//                     "sync": true
-//                 }
-//             },
-//             "rotate": {
-//                 "value": 50,
-//                 "random": true,
-//                 "direction": "clockwise",
-//                 "animation": {
-//                     "enable": true,
-//                     "speed": 5,
-//                     "sync": false
-//                 }
-//             },
-// "line_linked": {
-//                 "enable": true,
-//                 "distance": 10,
-//                 "color": "#ffffff",
-//                 "opacity": 0.4,
-//                 "width": 10
-//             },
-//             "move": {
-//                 "enable": true,
-//                 "speed": 2,
-//                 "direction": "none",
-//                 "random": false,
-//                 "straight": false,
-//                 "out_mode": "out",
-//                 "attract": {
-//                     "enable": false,
-//                     "rotateX": 600,
-//                     "rotateY": 1200
-//                 }
-//             }
-//         },
-//         "interactivity": {
-//             "events": {
-//                 "onhover": {
-//                     "enable": true,
-//                     "mode": ["grab"]
-//                 },
-//                 "onclick": {
-//                     "enable": false,
-//                     "mode": "bubble"
-//                 },
-//                 "resize": true
-//             },
-//             "modes": {
-//                 "grab": {
-//                     "distance": 400,
-//                     "line_linked": {
-//                         "opacity": 1
-//                     }
-//                 },
-//                 "bubble": {
-//                     "distance": 400,
-//                     "size": 40,
-//                     "duration": 2,
-//                     "opacity": 8,
-//                     "speed": 3
-//                 },
-//                 "repulse": {
-//                     "distance": 200
-//                 },
-//                 "push": {
-//                     "particles_nb": 4
-//                 },
-//                 "remove": {
-//                     "particles_nb": 2
-//                 }
-//             }
-//         },
-//         // "retina_detect": true,
-//         // "background": {
-//         //     "color": "#111",
-//         //     "image": "",
-//         //     "position": "50% 50%",
-//         //     "repeat": "no-repeat",
-//         //     "size": "cover"
-//         // }
-//     }}
-//     />
-//     </div>
-//   );
-// }
-
 
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -187,8 +10,6 @@ import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSl
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
-// import components
-import Navbar from './components/NavBar/NavBar';
 
 // import pages
 
@@ -300,32 +121,27 @@ const App = () => {
   );
 
 
-  return <>
-    <Router>
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
-      <NavBar />
-
-      <Routes>
-
-
+  return
+  <>
+  <Router>
+    <Routes>
       <Route path="/" element={<Home />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Project' element={<Project />} />
-        <Route path='/Contact' element={<Contact />} />
-        <Route path='/ProjectDetails1' element={<ProjectDetails1 />} />
-        <Route path='/ProjectDetails2' element={<ProjectDetails2 />} />
-        <Route path='/ProjectDetails3' element={<ProjectDetails3 />} />
+      <Route path="/About" element={<About />} />
+      <Route path="/Project" element={<Project />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/ProjectDetails1" element={<ProjectDetails1 />} />
+      <Route path="/ProjectDetails2" element={<ProjectDetails2 />} />
+      <Route path="/ProjectDetails3" element={<ProjectDetails3 />} />
+    </Routes>
+  </Router>
 
-
-      </Routes>
-
-    </Router>
-
-  </>;
+  <Particles
+    id="tsparticles"
+    particlesLoaded={particlesLoaded}
+    options={options}
+  />
+  <NavBar />
+</>
 };
 
 export default App;
