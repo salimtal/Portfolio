@@ -8,6 +8,12 @@ import { FaReact } from "react-icons/fa";
 import { TbFileTypeJsx } from "react-icons/tb";
 import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
+import mysteryNumber from '../../Images/mysteryNumber.png';
+import MN1 from '../../Images/MN1.png';
+import MN2 from '../../Images/MN2.png';
+import MN3 from '../../Images/MN3.png';
+import MN4 from '../../Images/MN4.png';
+import MN5 from '../../Images/MN5.png';
 
 
 
@@ -88,12 +94,12 @@ function ProjectDetails() {
 					<div className='tata'><button ref={prevRef} className="prev"><FaArrowLeft /></button></div>
 
 
-					<div className="current slide"><img src="./mysteryNumber.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./MN1.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./MN2.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./MN3.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./MN4.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./MN5.png" alt="Jeu" /></div>
+					<div className="current slide"><img src={mysteryNumber} alt="Jeu" /></div>
+					<div className="slide"><img src={MN1} alt="Jeu" /></div>
+					<div className="slide"><img src={MN2} alt="Jeu" /></div>
+					<div className="slide"><img src={MN3} alt="Jeu" /></div>
+					<div className="slide"><img src={MN4} alt="Jeu" /></div>
+					<div className="slide"><img src={MN5} alt="Jeu" /></div>
 
 					<div className='titi'>	<button ref={nextRef} className="next"><FaArrowRight /></button></div>
 

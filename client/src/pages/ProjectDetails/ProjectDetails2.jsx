@@ -10,6 +10,24 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { BsBootstrapFill } from "react-icons/bs";
+import png1 from '../../Images/1.png';
+import png2 from '../../Images/2.png';
+import png3 from '../../Images/3.png';
+import png4 from '../../Images/4.png';
+import png5 from '../../Images/5.png';
+import png6 from '../../Images/6.png';
+import png7 from '../../Images/7.png';
+import png8 from '../../Images/8.png';
+import png9 from '../../Images/9.png';
+import png10 from '../../Images/10.png';
+import png11 from '../../Images/11.png';
+import png12 from '../../Images/12.png';
+import png13 from '../../Images/13.png';
+import png14 from '../../Images/14.png';
+import png15 from '../../Images/15.png';
+import png16 from '../../Images/16.png';
+import avatar from '../../Images/avatar.png';
+
 
 
 
@@ -86,23 +104,23 @@ function ProjectDetails() {
 
 					<div className='tata'><button ref={prevRef} className="prev"><FaArrowLeft /></button></div>
 
-					<div className="current slide"><img src="./1.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./2.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./avatar.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./3.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./4.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./5.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./6.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./7.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./8.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./9.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./10.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./11.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./12.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./13.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./14.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./15.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./16.png" alt="Jeu" /></div>
+					<div className="current slide"><img src={png1} alt="Jeu" /></div>
+					<div className="slide"><img src={png2} alt="Jeu" /></div>
+					<div className="slide"><img src={avatar} alt="Jeu" /></div>
+					<div className="slide"><img src={png3} alt="Jeu" /></div>
+					<div className="slide"><img src= {png4} alt="Jeu" /></div>
+					<div className="slide"><img src={png5} alt="Jeu" /></div>
+					<div className="slide"><img src={png6} alt="Jeu" /></div>
+					<div className="slide"><img src={png6} alt="Jeu" /></div>
+					<div className="slide"><img src={png8} alt="Jeu" /></div>
+					<div className="slide"><img src={png9} alt="Jeu" /></div>
+					<div className="slide"><img src={png10} alt="Jeu" /></div>
+					<div className="slide"><img src={png11} alt="Jeu" /></div>
+					<div className="slide"><img src={png12} alt="Jeu" /></div>
+					<div className="slide"><img src={png13} alt="Jeu" /></div>
+					<div className="slide"><img src={png14} alt="Jeu" /></div>
+					<div className="slide"><img src={png15} alt="Jeu" /></div>
+					<div className="slide"><img src={png16} alt="Jeu" /></div>
 					<div className='titi'><button ref={nextRef} className="next"><FaArrowRight /></button></div>
 
 				</div>
