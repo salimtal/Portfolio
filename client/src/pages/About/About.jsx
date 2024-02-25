@@ -76,9 +76,8 @@ const About = () => {
           <li>Aspirant à une expérience pratique pour enrichir mon savoir-faire.</li>
           <li>Concevoir et développer des applications</li>
           <li>Apporter une valeur ajoutée à vos projets</li>
-          <li>...On en arrive à l'équation suivante:</li>
-          <li>    Alternance = Expérience === </li>
-          <li>Compétences supplémentaires!</li>
+          <li>On en arrive à l'équation suivante:</li>
+          <li>Alternance = Expérience === Compétences supplémentaires! </li>
         </ul>
 
       </div>

@@ -53,8 +53,8 @@ body {
 }
 
 .aboutMe ul {
-	list-style-type: circle;
 	font-size: 25px;
+	text-align: justify;
 
 }
 

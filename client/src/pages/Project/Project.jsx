@@ -67,7 +67,7 @@ function Projects() {
 
       </div>
 
-      <div className='card'>
+      <div className='card' id="lastCard">
 
         <div className='projectImg'>
         <img src={mysteryNumber} alt="mysteryNumber" />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
 import { MdEmail } from 'react-icons/md';
@@ -8,16 +8,24 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 
 
 const Contact = () => {
+
+
+  // const [buttonClicked, setButtonClicked] = useState(false);
+  const [emailSent, setEmailSent] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_pmkyhoi', 'template_v73k1xn', e.target, 'VrlLLWa_n6uFKsZXd')
       .then((result) => {
         console.log('E-mail envoyé avec succès :', result.text);
+        setEmailSent(true);
       })
       .catch((error) => {
         console.error('Erreur lors de lenvoi de le-mail :', error);
       });
+
+
   };
 
   return (
@@ -59,7 +67,7 @@ const Contact = () => {
             </div>
 
             <div className='form'>
-            <FaArrowAltCircleDown className='contactMeSvg' />
+              <FaArrowAltCircleDown className='contactMeSvg' />
 
               <div className='text'>
 
@@ -74,21 +82,28 @@ const Contact = () => {
 
         </div>
 
+
+
+
         <form className='right' onSubmit={sendEmail}>
-
           <div className='input'>
-
             <input type='text' name='nom' placeholder='Votre Nom' required />
             <input type='text' name='prenom' placeholder='Votre Prénom' required />
             <input id='subject' type='text' name='sujet' placeholder='Sujet de contact' required />
           </div>
-
-          <textarea name='message' rows={10} placeholder='Votre Message...'></textarea>
+          <textarea name='message' rows={10} placeholder='Votre Message...' required></textarea>
           <div className='submit'>
-            <button type='submit'> Envoyer </button>
+          {emailSent && <h4>Merci pour votre message ! Je vous répondrai dès que possible.</h4>}
+            <button
+              type='submit'
+              style={{ backgroundColor: emailSent ? '#DAC0A3' : 'initial', color: 'white' }}
+            >
+             Envoyer
+            </button>
+            
           </div>
-
         </form>
+
 
       </div>
 
