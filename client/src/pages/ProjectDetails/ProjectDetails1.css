@@ -116,8 +116,8 @@ body {
 }
 
 .projectContainer1 .carrousel div.slide.current img {
-	width: 600px;
-	height: 750px;
+	width: 500px;
+	height: 550px;
 	transition: all 60ms ease-in;
 }
 
@@ -204,7 +204,7 @@ body {
 	.projectContainer1 .carrousel div.slide.current img {
 		/* opacity: 1; */
 		width: 450px;
-		height: 600px;
+		height: 550px;
 		/* object-fit: cover; */
 		transition: all 60ms ease-in;
 	}

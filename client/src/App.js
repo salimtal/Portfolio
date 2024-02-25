@@ -310,10 +310,9 @@ const App = () => {
       <NavBar />
 
       <Routes>
-      <Route path="/" element={<Navigate to="/home" />} />
 
 
-        <Route path='/home' element={<Home />} />
+      <Route path="/" element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Project' element={<Project />} />
         <Route path='/Contact' element={<Contact />} />
