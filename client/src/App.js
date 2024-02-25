@@ -121,27 +121,37 @@ const App = () => {
   );
 
 
-  return
-  <>
-  <Router>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
-      <Route path="/Project" element={<Project />} />
-      <Route path="/Contact" element={<Contact />} />
-      <Route path="/ProjectDetails1" element={<ProjectDetails1 />} />
-      <Route path="/ProjectDetails2" element={<ProjectDetails2 />} />
-      <Route path="/ProjectDetails3" element={<ProjectDetails3 />} />
-    </Routes>
-  </Router>
+  return <>
+    <Router>
+     
 
-  <Particles
-    id="tsparticles"
-    particlesLoaded={particlesLoaded}
-    options={options}
-  />
-  <NavBar />
-</>
+      <Routes>
+
+
+      <Route path="/" element={<Home />} />
+        <Route path='/About' element={<About />} />
+        <Route path='/Project' element={<Project />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/ProjectDetails1' element={<ProjectDetails1 />} />
+        <Route path='/ProjectDetails2' element={<ProjectDetails2 />} />
+        <Route path='/ProjectDetails3' element={<ProjectDetails3 />} />
+
+
+      </Routes>
+      
+      <Particles
+        id="tsparticles"
+        particlesLoaded={particlesLoaded}
+        options={options}
+      />
+      <NavBar />
+
+    </Router>
+
+  </>;
+
+
+
 };
 
 export default App;
