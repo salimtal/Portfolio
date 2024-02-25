@@ -41,7 +41,7 @@ function NavBar() {
             >
               <div className="icon-title">
                 <BsFillPersonFill className='svg' />
-                <h3 className={`${activeIcon === 'About' ? 'titre active' : 'titre'}`}>À propos</h3>
+                <h3 className={`${activeIcon === 'About' ? 'titre active' : 'titre'}`}>About</h3>
               </div>
             </Link>
           </li>
@@ -53,7 +53,7 @@ function NavBar() {
             >
               <div className="icon-title">
               <AiFillFolderOpen  className='svg'  />
-              <h3 className={`${activeIcon === 'Project' ? 'titre active' : 'titre'}`}>Projet</h3>
+              <h3 className={`${activeIcon === 'Project' ? 'titre active' : 'titre'}`}>Project</h3>
                
               </div>
             </Link>
