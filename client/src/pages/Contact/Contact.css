@@ -501,13 +501,12 @@ align-content: center;
 	}
 
 	.contact .conteneur .right .input {
-		width: 100%;
-		height: 100px;
+		column-gap: 5px;
 		display: flex;
 		flex-wrap: wrap;
+		height: 95px;
 		justify-content: center;
-
-		column-gap: 5px;
+		width: 100%;
 	}
 
 	.contact .conteneur .right .input input {
