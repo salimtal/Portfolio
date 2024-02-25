@@ -371,13 +371,16 @@ align-content: center;
 		color: blueviolet;
 	}
 
-	.contact .conteneur .right .input {
-		width: 90%;
-		height: 40px;
-		display: flex;
-		flex-wrap: wrap;
-		column-gap: 5px;
-	}
+	
+		.contact .conteneur .right .input {
+			column-gap: 5px;
+			display: flex;
+			flex-wrap: wrap;
+			height: 95px;
+			justify-content: center;
+			width: 100%;
+		}
+	
 
 	.contact .conteneur .right .input input {
 		border-radius: 30px;
@@ -422,7 +425,7 @@ align-content: center;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 	.contact {
 		width: 90%;
 		display: flex;
