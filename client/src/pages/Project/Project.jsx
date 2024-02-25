@@ -1,6 +1,9 @@
 import "./Project.css";
 import { useNavigate } from 'react-router-dom';
 
+import GMALogo from '../../Images/GMALogo.png';
+import png1 from '../../Images/1.png';
+import mysteryNumber from '../../Images/mysteryNumber.png';
 
 
 
@@ -25,7 +28,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="Images/GMALogo.png" alt="Jeu" id="GMA" />
+        <img src={GMALogo} alt="GMALogo" />
         </div>
 
 
@@ -46,7 +49,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="1.png" alt="Jeu" />
+        <img src={png1} alt="png1" />
         </div>
 
 
@@ -67,7 +70,7 @@ function Projects() {
       <div className='card'>
 
         <div className='projectImg'>
-          <img src="mysteryNumber.png" alt="Jeu" />
+        <img src={mysteryNumber} alt="mysteryNumber" />
         </div>
 
 
