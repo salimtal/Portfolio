@@ -11,6 +11,24 @@ import { IoLogoCss3 } from "react-icons/io";
 import { TbFileTypeJsx } from "react-icons/tb";
 import { BsBootstrapFill } from "react-icons/bs";
 import { FaReact } from "react-icons/fa";
+import GMA1 from '../../Images/GMA1.png';
+import GMA2 from '../../Images/GMA2.png';
+import GMA3 from '../../Images/GMA3.png';
+import GMA4 from '../../Images/GMA4.png';
+import GMA5 from '../../Images/GMA5.png';
+import GMA6 from '../../Images/GMA6.png';
+import GMA7 from '../../Images/GMA7.png';
+import GMA8 from '../../Images/GMA8.png';
+import GMA9 from '../../Images/GMA9.png';
+import GMA10 from '../../Images/GMA10.png';
+import GMA11 from '../../Images/GMA11.png';
+import GMA12 from '../../Images/GMA12.png';
+import GMA13 from '../../Images/GMA13.png';
+import GMA14 from '../../Images/GMA14.png';
+import GMA15 from '../../Images/GMA15.png';
+import GMA16 from '../../Images/GMA16.png';
+import GMA17 from '../../Images/GMA17.png';
+import GMA18 from '../../Images/GMA18.png';
 
 
 
@@ -90,24 +108,24 @@ function ProjectDetails() {
 					<div className='tata'><button ref={prevRef} className="prev"><FaArrowLeft /></button></div>
 
 
-					<div className="current slide"><img src="./GMA1.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA2.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA3.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA4.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA5.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA6.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA7.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA8.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA9.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA10.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA11.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA12.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA13.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA14.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA15.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA16.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA17.png" alt="Jeu" /></div>
-					<div className="slide"><img src="./GMA18.png" alt="Jeu" /></div>
+					<div className="current slide"><img src={GMA1} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA2} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA3} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA4}alt="Jeu" /></div>
+					<div className="slide"><img src={GMA5} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA6} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA7} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA8}alt="Jeu" /></div>
+					<div className="slide"><img src={GMA9} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA10} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA11} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA12} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA13} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA14} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA15} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA16} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA17} alt="Jeu" /></div>
+					<div className="slide"><img src={GMA18} alt="Jeu" /></div>
 					<div className='titi'>	<button ref={nextRef} className="next"><FaArrowRight /></button></div>
 
 				</div>
