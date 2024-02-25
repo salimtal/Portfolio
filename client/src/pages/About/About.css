@@ -63,6 +63,16 @@ body {
 
 }
 
+.aboutMe li::before {
+	content: '•'; 
+	display: inline-block; 
+	width: 10px; 
+	height: 10px;
+	color: white;
+	border-radius: 50%; 
+  margin-right: 10px;
+  }
+
 .exprience {
 	color: white;
 	width: 90%;
@@ -112,7 +122,6 @@ body {
 	
 	}
 	.aboutMe h1 {
-		color: #D63484;
 		font-size: 30px;
 	}
 	.aboutMePage p {
@@ -136,7 +145,6 @@ body {
 
 	.aboutMe ul {
 		width: 100%;
-		color: #D63484;
 		font-size: 16px;
 padding: 10px;	
 	}
@@ -191,7 +199,6 @@ padding: 10px;
 	
 	}
 	.aboutMe h1 {
-		color: #D63484;
 		font-size: 25px;
 	}
 	.aboutMePage p {
@@ -214,7 +221,6 @@ padding: 10px;
 
 	.aboutMe ul {
 		width: 100%;
-		color: #D63484;
 		font-size: 16px;
 padding: 10px;	
 	}

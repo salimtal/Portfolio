@@ -70,9 +70,9 @@ const About = () => {
         <h2>Liza Bahloul</h2>
         <p> Vous venez de l'apprendre, je suis très ardemment à la recherche d'une alternance : La future carrière que j'anbitionne en dépend ! Oui, je répète ! Cette opportunité est cruciale pour la progression de mes objectifs professionnels, à savoir:</p>
 
-        <ul>
+        <ul >
           <li>Explorez de nouveaux horizons pour approfondir ma compréhension du domaine.</li>
-          <li>"Améliorer mes compétences au sein d'une équipe diversifiée et expérimentée </li>
+          <li>Améliorer mes compétences au sein d'une équipe diversifiée et expérimentée </li>
           <li>Aspirant à une expérience pratique pour enrichir mon savoir-faire.</li>
           <li>Concevoir et développer des applications</li>
           <li>Apporter une valeur ajoutée à vos projets</li>

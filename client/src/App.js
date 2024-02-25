@@ -79,10 +79,10 @@ const App = () => {
       },
       particles: {
         color: {
-          value: "#8a2be2",
+          value: "#DAC0A3",
         },
         links: {
-          color: "#FF9BD2",
+          color: "#DAC0A3",
           distance: 250,
           enable: true,
           opacity: 0.5,
@@ -138,7 +138,7 @@ const App = () => {
 
 
       </Routes>
-      
+
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
