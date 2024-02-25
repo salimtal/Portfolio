@@ -41,7 +41,7 @@ body {
 .projectContainer3 .carrousel .tata button {
 	border: none;
 	border-radius: 5px;
-	background-color: #81689D;
+	background-color: #DAC0A3 ;
 	color: white;
 	cursor: pointer;
 	font-size: 2rem;
@@ -64,7 +64,7 @@ body {
 .projectContainer3 .carrousel .titi button {
 	border: none;
 	border-radius: 5px;
-	background-color: #81689D;
+	background-color: #DAC0A3 ;
 	color: white;
 	cursor: pointer;
 	font-size: 2rem;
@@ -93,7 +93,7 @@ body {
 }
 
 .projectContainer3 .circle {
-	background-color: #81689D;
+	background-color: #DAC0A3 ;
 	height: 5px;
 	width: 5px;
 	border-radius: 100%;
@@ -103,7 +103,7 @@ body {
 }
 
 .projectContainer3 .circle.active {
-	background-color: blueviolet;
+	background-color: #DAC0A3 ;
 	transform: scale(2);
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .projectContainer3 .projectDetails h1 {
-	color: #9F37B9;
+	color: #102C57 ;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
@@ -224,7 +224,7 @@ body {
 	.projectContainer3 .carrousel .tata button {
 		border: none;
 		border-radius: 5px;
-		background-color: #81689D;
+		background-color: #DAC0A3 ;
 		color: white;
 		cursor: pointer;
 		font-size: 2rem;
@@ -247,7 +247,7 @@ body {
 	.projectContainer3 .carrousel .titi button {
 		border: none;
 		border-radius: 5px;
-		background-color: #81689D;
+		background-color: #DAC0A3 ;
 		color: white;
 		cursor: pointer;
 		font-size: 2rem;
@@ -261,7 +261,7 @@ body {
 	}
 
 	.projectContainer3 .projectDetails h1 {
-		color: #9F37B9;
+		color: #102C57 ;
 		font-size: 20px;
 		margin-top: 10px;
 		margin-bottom: 5px;
@@ -304,7 +304,7 @@ body {
 	.projectContainer3 .carrousel .prev svg {
 		width: 15px;
 		height: 15px;
-		color: #9F37B9;
+		color: #DAC0A3 ;
 	}
 
 	.projectContainer3 .carrousel .tata button,
@@ -358,7 +358,7 @@ body {
 	}
 
 	.projectContainer3 .projectDetails h1 {
-		color: #9F37B9;
+		color: #102C57 ;
 		font-size: 22px;
 		margin-top: 10px;
 		margin-bottom: 5px;
@@ -398,7 +398,7 @@ body {
 	.projectContainer3 .carrousel .prev svg {
 		width: 15px;
 		height: 15px;
-		color: #9F37B9;
+		color: #DAC0A3 ;
 	}
 
 	.projectContainer3 .carrousel .tata button,
@@ -456,7 +456,7 @@ body {
 	}
 
 	.projectContainer3 .projectDetails h1 {
-		color: #9F37B9;
+		color: #102C57 ;
 		font-size: 20px;
 		margin-top: 10px;
 		margin-bottom: 5px;
@@ -500,7 +500,7 @@ body {
 	.projectContainer3 .carrousel .prev svg {
 		width: 15px;
 		height: 15px;
-		color: #9F37B9;
+		color: #DAC0A3 ;
 	}
 
 	.projectContainer3 .carrousel .tata button,
@@ -560,7 +560,7 @@ body {
 	}
 
 	.projectContainer3 .projectDetails h1 {
-		color: #9F37B9;
+		color: #102C57 ;
 		font-size: 20px;
 		margin-top: 10px;
 		margin-bottom: 5px;
@@ -608,7 +608,7 @@ body {
 	.projectContainer3 .carrousel .prev svg {
 		width: 15px;
 		height: 15px;
-		color: #9F37B9;
+		color: #DAC0A3 ;
 	}
 
 	.projectContainer3 .carrousel .tata button,
@@ -657,7 +657,7 @@ body {
 	}
 
 	.projectContainer3 .projectDetails h1 {
-		color: #9F37B9;
+		color: #102C57 ;
 		font-size: 18px;
 		margin-top: 10px;
 		margin-bottom: 5px;

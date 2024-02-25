@@ -38,7 +38,7 @@ body {
 }
 
 .aboutMe h1 {
-	color: blueviolet;
+	color: #DAC0A3 ;
 	margin-left: 10px;
 
 }
@@ -54,14 +54,12 @@ body {
 
 .aboutMe ul {
 	list-style-type: circle;
-	color: #D63484;
 	font-size: 25px;
 
 }
 
 .aboutMe li {
 	margin-bottom: 15px;
-	color: #D63484;
 
 }
 

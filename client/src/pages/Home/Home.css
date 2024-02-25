@@ -20,7 +20,7 @@ body {
 .welcome h1 {
 	font-size: 50px;
 	margin-bottom: 100px;
-	color: blueviolet;
+	color: #DAC0A3 ;
 }
 
 .welcome h2 {
@@ -60,7 +60,7 @@ body {
 	.welcome h1 {
 		font-size: 25px;
 		margin-bottom: 50px;
-		color: blueviolet;
+		color: #DAC0A3 ;
 		padding: 10px;
 	}
 
@@ -94,7 +94,7 @@ body {
 	.welcome h1 {
 		font-size: 25px;
 		margin-bottom: 50px;
-		color: blueviolet;
+		color: #DAC0A3 ;
 		padding: 10px;
 	}
 
