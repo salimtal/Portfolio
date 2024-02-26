@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import confitis from "../../components/confitis";
 import emailjs from 'emailjs-com';
 import { MdEmail } from 'react-icons/md';
 import { FaPhoneSquareAlt } from "react-icons/fa";
@@ -12,6 +13,7 @@ const Contact = () => {
 
   // const [buttonClicked, setButtonClicked] = useState(false);
   const [emailSent, setEmailSent] = useState(false);
+   
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,6 +22,7 @@ const Contact = () => {
       .then((result) => {
         console.log('E-mail envoyé avec succès :', result.text);
         setEmailSent(true);
+       
       })
       .catch((error) => {
         console.error('Erreur lors de lenvoi de le-mail :', error);
@@ -93,7 +96,7 @@ const Contact = () => {
           </div>
           <textarea name='message' rows={10} placeholder='Votre Message...' required></textarea>
           <div className='submit'>
-          {emailSent && <h4>Merci pour votre message ! Je vous répondrai dès que possible.</h4>}
+          {emailSent &&   <confitis/> && <h4>Merci pour votre message ! Je vous répondrai dès que possible.</h4>}
             <button
               type='submit'
               style={{ backgroundColor: emailSent ? '#DAC0A3' : 'initial', color: 'white' }}

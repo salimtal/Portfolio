@@ -210,7 +210,7 @@ padding: 10px;
 	}
 
 	.aboutMe {
-		width: 100%;
+		width: 95%;
 		color: white;
 		display: flex;
 		flex-direction: column;
@@ -234,7 +234,7 @@ padding: 10px;
 
 	.exprience {
 		color: white;
-		width: 100%;
+		width: 95%;
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 50px;
