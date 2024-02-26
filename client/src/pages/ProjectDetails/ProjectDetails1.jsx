@@ -155,7 +155,7 @@ function ProjectDetails() {
 				<div className='projectDetailsContent'>
 					<h1>Page Données Personnelles</h1>
 					<h2>Déscriptif</h2>
-					<p>Pour ce projet, ma mission était de développer à la fois le front-end et le back-end de la page "Données Personnelles", un élément crucial pour toute plateforme de commerce électronique.  Cette page contient des informations sensibles et spécifiques relatives à l'utilisateur, telles que les Informations d'Identification (nom, prénom, numéro de téléphone, date de naissance), les Informations Personnelles (adresse postale), et la Sécurité et la Gestion de Compte (e-mail et mot de passe).</p>
+					<p>Pour ce projet, ma mission était de développer à la fois le front-end et le back-end de la page "Données Personnelles", un élément crucial pour toute plateforme de e-commerce. Cette page contient des informations sensibles et spécifiques relatives à l'utilisateur, telles que les Informations d'Identification (nom, prénom, numéro de téléphone, date de naissance), les Informations Personnelles (adresse postale), ainsi que la Sécurité et la Gestion de Compte (e-mail et mot de passe).</p>
 					<p>En fournissant des options de gestion complètes, elle permet aisément à l'utilisateur d'ajouter, consulter, modifier ou supprimer ses informations selon ses besoins.</p>
 					<h2>Contexte</h2>
 					<p>Dans le cadre de mon stage chez GMA International, réalisé à la fin de ma formation DWWM.</p>
