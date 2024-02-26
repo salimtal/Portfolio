@@ -23,7 +23,7 @@ function NavBar() {
         <ul className="nav-list">
           <li>
             <Link
-              to='/'
+              to='/Portfolio'
               className={`items ${activeIcon === 'Home' ? 'active' : ''}`}
               onClick={() => openIcon('Home')}
             >
