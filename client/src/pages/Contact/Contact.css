@@ -72,6 +72,8 @@ body {
 	margin-top: 20px;
 	margin-right: 20px;
 	color: #DAC0A3 ;
+	animation: bell 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+
 }
 
 .form {
@@ -82,8 +84,57 @@ body {
 	display: none;
 }
 
-.form contactMeSvg {
-	display: none;
+
+
+@keyframes bell {
+
+	0%,
+	20%,
+	40%,
+	60%,
+	80% {
+		transform: translateY(0) rotate(0deg);
+	}
+
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		transform: translateY(-5px) rotate(5deg);
+	}
+
+	25%,
+	55%,
+	85% {
+		transform: translateY(-7px) rotate(-5deg);
+	}
+
+	45%,
+	75% {
+		transform: translateY(-10px) rotate(5deg);
+	}
+
+	100% {
+		transform: translateY(0) rotate(0deg);
+	}
+
+	/* 0% {
+		top: 0;
+		left: 0;
+	}
+
+
+
+	50% {
+		top: 0;
+		left: 50%;
+	}
+
+	100% {
+		top: 0;
+		left: 0%;
+	} */
 }
 
 .contactMe p {
