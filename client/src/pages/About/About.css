@@ -38,10 +38,13 @@ body {
 }
 
 .aboutMe h1 {
-	color: #DAC0A3 ;
+	color: #DAC0A3;
 	margin-left: 10px;
 
+
 }
+
+
 
 .aboutMePage h2 {
 	font-size: 60px;
@@ -52,26 +55,123 @@ body {
 
 }
 
+.aboutMe h2 {
+	position: relative;
+	animation: move 4s;
+}
+
+@keyframes move {
+	0% {
+		top: 0;
+		left: 0;
+	}
+
+
+
+	50% {
+		top: 0;
+		left: 50%;
+	}
+
+	100% {
+		top: 0;
+		left: 0%;
+	}
+}
+
 .aboutMe ul {
 	font-size: 25px;
 	text-align: justify;
-
 }
 
 .aboutMe li {
 	margin-bottom: 15px;
+	opacity: 0;
+	transform: translateY(-20px);
+	transition: opacity 0.5s, transform 0.5s;
+
 
 }
 
+.item1 {
+	animation: move1 3s forwards;
+	animation-delay: 5s;
+
+}
+
+.item2 {
+	animation: move1 3s forwards;
+	animation-delay: 8s;
+}
+
+.item3 {
+	animation: move1 3s forwards;
+	animation-delay: 11s;
+}
+
+.item4 {
+	animation: move1 3s forwards;
+	animation-delay: 15s;
+}
+
+
+.item5 {
+	animation: move1 3s forwards;
+	animation-delay: 18s;
+}
+
+.item6 {
+	animation: move1 3s forwards;
+	animation-delay: 21s;
+}
+
+.item7 {
+	animation: move1 3s forwards;
+	animation-delay: 25s;
+}
+
+@keyframes move1 {
+	from {
+		color: #DAC0A3;
+		top: 0px;
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	to {
+		top: 15px;
+		;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+
+
+
+
+
+/* @keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+} */
+
 .aboutMe li::before {
-	content: '•'; 
-	display: inline-block; 
-	width: 10px; 
+	content: '•';
+	display: inline-block;
+	width: 10px;
 	height: 10px;
 	color: white;
-	border-radius: 50%; 
-  margin-right: 10px;
-  }
+	border-radius: 50%;
+	margin-right: 10px;
+}
 
 .exprience {
 	color: white;
@@ -88,7 +188,7 @@ body {
 	width: 90%;
 	display: flex;
 	flex-direction: column;
-	 margin-bottom: 50px;
+	margin-bottom: 50px;
 
 }
 
@@ -109,7 +209,7 @@ body {
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 2000px){
+@media screen and (min-width: 769px) and (max-width: 2000px) {
 
 
 
@@ -117,11 +217,13 @@ body {
 		width: 90%;
 		margin: auto;
 		margin-top: 100px;
-	
+
 	}
+
 	.aboutMe h1 {
 		font-size: 30px;
 	}
+
 	.aboutMePage p {
 		width: 100%;
 		padding: 10px;
@@ -138,20 +240,20 @@ body {
 		margin-bottom: 20px;
 		margin-bottom: 100px;
 
-	
+
 	}
 
 	.aboutMe ul {
 		width: 100%;
 		font-size: 16px;
-padding: 10px;	
+		padding: 10px;
 	}
 
 	.aboutMePage h2 {
 		font-size: 23px;
 		padding-top: 20px;
 		padding-bottom: 50px;
-	
+
 	}
 
 	.exprience {
@@ -164,6 +266,7 @@ padding: 10px;
 
 
 	}
+
 	.skills {
 		color: white;
 		width: 100%;
@@ -172,19 +275,21 @@ padding: 10px;
 		margin-bottom: 100px;
 
 	}
+
 	.HardSkillsIcons {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
 	.HardSkillsIcons svg {
 		width: 95px;
 		height: 95px;
 		display: flex;
-	    justify-content: center;
+		justify-content: center;
 		padding: 20px;
-		
+
 	}
 }
 
@@ -194,11 +299,13 @@ padding: 10px;
 		width: 95%;
 		margin: auto;
 		margin-top: 100px;
-	
+
 	}
+
 	.aboutMe h1 {
 		font-size: 25px;
 	}
+
 	.aboutMePage p {
 		width: 100%;
 		padding: 10px;
@@ -214,20 +321,20 @@ padding: 10px;
 		flex-direction: column;
 		margin-bottom: 50px;
 
-	
+
 	}
 
 	.aboutMe ul {
 		width: 100%;
 		font-size: 16px;
-padding: 10px;	
+		padding: 10px;
 	}
 
 	.aboutMePage h2 {
 		font-size: 23px;
 		padding-top: 20px;
 		padding-bottom: 50px;
-	
+
 	}
 
 	.exprience {
@@ -238,6 +345,7 @@ padding: 10px;
 		margin-bottom: 50px;
 
 	}
+
 	.skills {
 		color: white;
 		width: 100%;
@@ -246,18 +354,20 @@ padding: 10px;
 		margin-bottom: 50px;
 
 	}
+
 	.HardSkillsIcons {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
 	.HardSkillsIcons svg {
 		width: 95px;
 		height: 95px;
 		display: flex;
-	    justify-content: center;
+		justify-content: center;
 		padding: 20px;
-		
+
 	}
 }

@@ -67,7 +67,6 @@ function ProjectDetails() {
 				currentCircle = circles[counter];
 				current.classList.add('current');
 				currentCircle.classList.add('active');
-				console.log("Slide Called!")
 			}
 
 			nextRef.current.addEventListener('click', function () {
@@ -90,7 +89,6 @@ function ProjectDetails() {
 			});
 
 			carr.addEventListener('mouseleave', function () {
-				console.log("moseleaved!")
 				sliding();
 			});
 

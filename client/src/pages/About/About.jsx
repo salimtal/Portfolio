@@ -71,13 +71,13 @@ const About = () => {
         <p> Vous venez de l'apprendre, je suis très ardemment à la recherche d'une alternance : La future carrière que j'anbitionne en dépend ! Oui, je répète ! Cette opportunité est cruciale pour la progression de mes objectifs professionnels, à savoir:</p>
 
         <ul>
-          <li>Explorez de nouveaux horizons pour approfondir ma compréhension du domaine.</li>
-          <li>Améliorer mes compétences au sein d'une équipe diversifiée et expérimentée. </li>
-          <li>Aspirant à une expérience pratique pour enrichir mon savoir-faire.</li>
-          <li>Concevoir et développer des applications.</li>
-          <li>Apporter une valeur ajoutée à vos projets.</li>
-          <li>On en arrive à l'équation suivante:</li>
-          <li>Alternance = Expérience === Compétences supplémentaires! </li>
+          <li className='item1'>Explorez de nouveaux horizons pour approfondir ma compréhension du domaine.</li>
+          <li className='item2'>Améliorer mes compétences au sein d'une équipe diversifiée et expérimentée. </li>
+          <li className='item3'>Aspirant à une expérience pratique pour enrichir mon savoir-faire.</li>
+          <li className='item4'>Concevoir et développer des applications.</li>
+          <li className='item5'>Apporter une valeur ajoutée à vos projets.</li>
+          <li className='item6'>On en arrive à l'équation suivante:</li>
+          <li className='item7'>Alternance = Expérience === Compétences supplémentaires! </li>
         </ul>
 
       </div>
