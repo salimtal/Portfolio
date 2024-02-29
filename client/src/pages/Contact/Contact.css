@@ -645,7 +645,7 @@ align-content: center;
 	.contact h4 {
 		margin: 10px;
 		color: green ;
-		font-size: medium;
+		font-size: small;
 	}
 	.contact .conteneur {
 		width: 100%;
