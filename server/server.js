@@ -12,6 +12,7 @@ const userRoutes = require('./routes/user.route');
 const cors = require('cors');
 const cookieParser = require('cookie-parser')
 
+const path = require('path'); // Import du module 'path' !!!!
 
 
 const connectDB= require('./config/db')
@@ -33,7 +34,13 @@ app.use(cors({
 app.use('/' , authRoutes);
 app.use('/' , userRoutes);
 
+// Servir les fichiers statiques depuis le répertoire de construction de l'application React
+app.use(express.static(path.join(__dirname, 'build')));
 
+// Configuration d'une règle de réécriture d'URL pour renvoyer l'application React
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 
 // 2Lancer l'application sur un port
