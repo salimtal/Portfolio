@@ -38,8 +38,8 @@ app.use('/' , userRoutes);
 app.use(express.static(path.join(__dirname, 'build')));
 
 // Configuration d'une règle de réécriture d'URL pour renvoyer l'application React
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+app.get('/*', function (req, res) {
+   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 
